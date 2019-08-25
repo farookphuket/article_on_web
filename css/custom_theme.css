@@ -81,7 +81,13 @@ End of panel
 
 */
 
+  section {
+    padding: 8rem 0;
+  }
 
+  .section-heading {
+    margin-top: 0;
+  }
 
 /*-----Make your webpage responsive ---*/
 /*
