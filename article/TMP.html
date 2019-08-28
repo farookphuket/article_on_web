@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ดูหนังสงครามหมื่นขา2</title>
+<title>This is the template file please change the title here</title>
 <!-- Copy this to use in every document--> 
 <!--Copy Out source Start --> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -14,17 +14,32 @@
 </head>
 
 <body>
+  <!-- add "back home button" on 26-Aug-2019 -->
+<div class="float-right">
+  <button class="btn btn-primary lnBack">Back Home</button>
+  </div>
+  <script>
+    $(function(){
+      $(".lnBack").on("click",function(){
+        var url = "../index.html";
+        location.href=url;
+      });
+    });
+  </script>
+
 <!--summary start-->
 <section id="article_summary">
 	<div class="container">
 		<div class="row">
 			
 			<div class="col-md-4">
-				<p>Image to show</p>			
+        <img src="https://lh3.googleusercontent.com/XjgwWYnVKp25SqN2fqjgV-B8UdNzGjDbtQnGoUzqWnS-6sTFpBZBizeX5r-F1X03bIfr-AlnReBTMmgXwhIlYK-2Ubx9lA_42QiSeH9jEMJPHGUlM_AOtJ1eJTS4bCdzeFsS5-_HEg=w2400" class="responsive">
+				<p>Change your image title here (รูปเกาะห้องอ่าวพังงา)</p>			
 			</div>
 			<div class="col-md-8">
 				<p>
-					name
+          This is the template file<br />
+          Copy this file to start your new "Article" by change the content in here!
 				
 				</p>
 			</div>		
@@ -33,35 +48,23 @@
 </section>
 <!-- End Of Summary -->
 
-<section id="movie_content">
+<!-- BODY START -->
+<section id="article_body">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="text-center">
-					movie name
-				</h1>	
-				<p class="text-center">
-					thai name
-				</p>		
+        <h1 class="text-center">Add the header here </h1>	
+        <p>This will be the content area to show on the page.</p>
+
+
 			</div>
-			<div class="col-lg-12">
-				<div class="video-container">
-					<p>Video IFram</p>
-				</div>			
-				<p class="text-center">
-					Name or title
-				</p>
-				<p>
-					<strong>Link Embed</strong> : 
-					link				
-				</p>
-			</div>		
-		
+					
 		</div>	
 	
 	</div>
 
 </section>
+<!-- END BODY -->
 
 
 

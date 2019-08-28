@@ -1,5 +1,33 @@
 # Article template to show on the web
 
+
+
+## Last edit 26-Aug-2019
+> Edit index.html
+---
+> คลิปเสียงตอนที่ 52 ถึง 57 ความยาว 8 ชั่วโมง 19 นาที 45 วินาที upload เมื่อ 28-สิงหาคม-2562 
+
+
+
+<ol>
+  <li>
+    เพชรพระอุมา ตอน ไพรมหากาฬ 
+  </li>
+ <li>
+   คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
+  </li>
+
+  <li>
+    with mod page show on "Jun-ta-bu-ri" my belove!
+  </li>
+</ol>
+
+***
+> **This is the back-up file (I hope)**
+
+
+
+
 ## last edit 22-july-2019
 >edit readme file
 

@@ -14,48 +14,60 @@
 </head>
 
 <body>
+  <!-- 
+    add "back home" button on 26-Aug-2019 
+    Copy this to all page for the right "close" button
+  -->
+  <div class="float-right">
+  <button class="btn btn-primary lnBack">Back Home</button>
+  </div>
+  <script>
+    $(function(){
+      $(".lnBack").on("click",function(){
+        var url = "../index.html";
+        location.href=url;
+      });
+    });
+  </script>
 <!--summary start-->
 <section id="article_summary">
 	<div class="container">
 		<div class="row">
 			
 			<div class="col-md-4">
-				<p>Image to show</p>			
+        <img src="https://lh3.googleusercontent.com/WHVKr_0H7KmWHMwsMn34kwLBK6IMUV1-hA0Lur6xNh5X8j6g9sLAEq-xqr-iS7dqnkKUUuwyK7W8LfFMnxmVkEJ33p-V_ZHquq2GlxMKkxw5YQj9P10DOel-R1iYRk-oSzSfc4CdbA=w2400" class="responsive" />
+				<p class="text-center">my vim setup and the vimrc file "August 2019"</p>			
+        <p>&nbsp;</p>
 			</div>
 			<div class="col-md-8">
-				<p>
-					name
-				
-				</p>
+        <p>
+          to see the code and download just go : <a href="https://github.com/farookphuket/far_vimrc" style="color:white;font-weight:bold;" class="btn btn-primary" target="_blank">
+            here
+          </a>
+        </p>
+
 			</div>		
 		</div>	
 	</div>
 </section>
 <!-- End Of Summary -->
 
-<section id="movie_content">
+<section id="ar_content">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="text-center">
-					movie name
-				</h1>	
-				<p class="text-center">
-					thai name
-				</p>		
-			</div>
-			<div class="col-lg-12">
-				<div class="video-container">
-					<p>Video IFram</p>
-				</div>			
-				<p class="text-center">
-					Name or title
-				</p>
-				<p>
-					<strong>Link Embed</strong> : 
-					link				
-				</p>
-			</div>		
+      <div class="col-lg-12">
+        <h1 class="text-center">
+          My .vimrc file
+        </h1>	
+        <p>&nbsp;</p>
+        <p class="text-center">
+        <a href="vimrc.md" class="btn btn-primary btn-lg" target="_blank" style="color:white;font-weight:bold">View .vimrc file</a>
+        <a href="screenrc.md" class="btn btn-primary btn-lg" target="_blank"  style="color:white;font-weight:bold;">View .screenrc file</a>
+        </p>		
+
+        <p>&nbsp;</p>
+      </div>
+			
 		
 		</div>	
 	

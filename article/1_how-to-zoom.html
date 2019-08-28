@@ -18,6 +18,22 @@ How to Zoom window in Ubuntu Mate 18.04
 </head>
 
 <body>
+ <!-- 
+    add "back home" button on 26-Aug-2019 
+    Copy this to all page for the right "close" button
+  -->
+  <div class="float-right">
+  <button class="btn btn-primary lnBack">Back Home</button>
+  </div>
+  <script>
+    $(function(){
+      $(".lnBack").on("click",function(){
+        var url = "../index.html";
+        location.href=url;
+      });
+    });
+  </script>
+
 
 <!--summary start-->
 <section id="article_summary">
@@ -29,7 +45,8 @@ How to Zoom window in Ubuntu Mate 18.04
 			</div>
 			<div class="col-md-4">
 				<img src="https://lh3.googleusercontent.com/HPXWiCM9vjDwwgj7pyk8bS3AuYPw3xDKiN-GY2ush77QjbYkDaugpkKoUH4il2PDWyz8xaN_lad-d0apnAlLlYmdVBJB2iW87B2NLYpGJQOqitwXYKvkiJUXOy4_DULfxkxaeEOpvA=w2400" class="responsive" />			
-			</div>
+		
+      </div>
 			<div class="col-md-8">
 				<p>
 					<strong>
