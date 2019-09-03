@@ -9,48 +9,52 @@
 
 
 
-<ol>
-  <li>
-    Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
-  </li>
+  <ol>
+    
+    <li>
+      Set up Shutter "edit button disabled" 3-Sep-2019
+    </li>
+    <li>
+      Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
+    </li>
 
-<li>
-เพชรพระอุมา ตอน ไพรมหากาฬ 
-</li>
-<li>
-คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
-</li>
+    <li>
+    เพชรพระอุมา ตอน ไพรมหากาฬ 
+    </li>
+    <li>
+    คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
+    </li>
 
-<li>
-with mod page show on "Jun-ta-bu-ri" my belove!
-</li>
-</ol>
+    <li>
+    with mod page show on "Jun-ta-bu-ri" my belove!
+    </li>
+  </ol>
 
-***
-> **This is the back-up file (I hope)**
-
-
+  ***
+  > **This is the back-up file (I hope)**
 
 
-## last edit 22-july-2019
->edit readme file
 
->by learn more from youtube video from
 
-[![](http://img.youtube.com/vi/pTCROLZLhDM/0.jpg)](http://www.youtube.com/watch?v=pTCROLZLhDM "")
+  ## last edit 22-july-2019
+  >edit readme file
 
----
+  >by learn more from youtube video from
 
-## make a bold text.
-**make this text bold**
->to make text **bold** you have to use 2 stars ** put the text in between the 2 stars then close it with another 2 stars  ** to make bold text.
+  [![](http://img.youtube.com/vi/pTCROLZLhDM/0.jpg)](http://www.youtube.com/watch?v=pTCROLZLhDM "")
 
-## make a section.
->to make a section is simply by enter 3 of * or _ or -
-***
-___
+  ---
 
----
+  ## make a bold text.
+  **make this text bold**
+  >to make text **bold** you have to use 2 stars ** put the text in between the 2 stars then close it with another 2 stars  ** to make bold text.
+
+  ## make a section.
+  >to make a section is simply by enter 3 of * or _ or -
+  ***
+  ___
+
+  ---
 
 
 
