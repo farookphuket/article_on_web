@@ -10,21 +10,18 @@
 
 
   <ol>
-    
     <li>
       Set up Shutter "edit button disabled" 3-Sep-2019
     </li>
     <li>
       Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
     </li>
-
     <li>
     เพชรพระอุมา ตอน ไพรมหากาฬ 
     </li>
     <li>
     คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
     </li>
-
     <li>
     with mod page show on "Jun-ta-bu-ri" my belove!
     </li>
