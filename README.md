@@ -10,6 +10,9 @@
 
 
   <ol>
+     <li>
+      3-Sep-2019 edit "README.md" file on the "main machine"
+    </li>
     <li>
       Set up Shutter "edit button disabled" 3-Sep-2019
     </li>
