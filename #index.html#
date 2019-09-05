@@ -46,6 +46,8 @@
                 คงจะมีเพียงเธอที่หยุดหัวใจของฉันไว้ตรงนี้ ตรงที่เธอ<br />
 
               </p>
+	      
+		
               <p>&nbsp;</p>
             </div>
           </div>
@@ -101,22 +103,6 @@
               <p>&nbsp;</p>
             </div>
             <ol>
-              <li>
-                <div class="container">
-                  <h1 class="text-center">Set-up my apache web server on Ubuntu 18.04.3 LTS</h1>
-                  <p>
-                    Last config on 5-Sep-2019
-                  </p>
-                  <p class="text-center">
-                    <a href="https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/" target="_blank">
-                    <img src="https://www.ostechnix.com/wp-content/uploads/2019/02/lamp-720x340.jpg" class="responsive">
-                    </a>
-                    <br />
-                    Click on the image to read the original post!
-                  </p>
-                  <a href="article/14_setup_server.html" class="btn btn-primary btn-lg" style="color:white;font-weight:bold;">ReadMore</a>
-                </div>
-              </li>
               <li>
                 <h1 class="text-center">หนังสือนิยาย เพชรพระอุมา</h1>
                   <img src="https://lh3.googleusercontent.com/yxaOL-QroOMe_SChP_khpdXDp3jifRAWvTRILQuL2Ja8lTuuSMVBenDWyTIndmRAItsCgxFu3wbKHofjP9vEdSgYfPaEAj_PooL91p-KoZVXTyYRuMA1xUgXXkLVW9Idgo18WHowsIs=w2400" class="responsive">
