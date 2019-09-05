@@ -10,6 +10,9 @@
 
 
   <ol>
+    <li>
+      Synce with the COM2BUU on 5-Sep-2019
+    </li>
      <li>
       3-Sep-2019 edit "README.md" file on the "main machine"
     </li>
