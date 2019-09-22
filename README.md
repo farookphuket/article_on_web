@@ -7,37 +7,33 @@
 ---
 > คลิปเสียงตอนที่ 52 ถึง 57 ความยาว 8 ชั่วโมง 19 นาที 45 วินาที upload เมื่อ 28-สิงหาคม-2562 
 
+---
+    # List of edit
+    1. ตี 2:23 ของวันที่ 23 กันยา 2562 ผมยังไม่นอน เพราะว่านอนกลางวันเยอะ
+    1. Mon 23 Sep 2019 Edit "README.md" file
+    1. Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
+    1. 3-Sep-2019 edit "README.md" file on the "main machine"
+    1. Synce with the COM2BUU on 5-Sep-2019
+    2. Set up Shutter "edit button disabled" 3-Sep-2019
+    2. Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
+    1. เพชรพระอุมา ตอน ไพรมหากาฬ 
+    1. คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
+    1. with mod page show on "Jun-ta-bu-ri" my belove!
+
+---  
 
 
-  <ol>
-    <li>
-      Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
-    </li>
+    >ทดลองสร้างตารางครั้งแรกใน .md file 23-Sep-2019 
 
-    <li>
-      Synce with the COM2BUU on 5-Sep-2019
-    </li>
-     <li>
-      3-Sep-2019 edit "README.md" file on the "main machine"
-    </li>
-    <li>
-      Set up Shutter "edit button disabled" 3-Sep-2019
-    </li>
-    <li>
-      Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
-    </li>
-    <li>
-    เพชรพระอุมา ตอน ไพรมหากาฬ 
-    </li>
-    <li>
-    คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
-    </li>
-    <li>
-    with mod page show on "Jun-ta-bu-ri" my belove!
-    </li>
-  </ol>
-
-  ***
+    |---   |---         |---            |
+    |ลำดับที่ | ลำดับที่ชื่อเรื่อง | เขียน/สร้าง เมื่อ|
+    |---   |---         |---            |
+    |1      |ตอนป่าโลกล้านปี |  23/9/2019  |
+    
+    
+    
+    
+    ***
   > **This is the back-up file (I hope)**
 
 
