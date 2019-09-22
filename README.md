@@ -9,6 +9,7 @@
 
 ---
     # List of edit
+
     1. ตี 2:23 ของวันที่ 23 กันยา 2562 ผมยังไม่นอน เพราะว่านอนกลางวันเยอะ
     1. Mon 23 Sep 2019 Edit "README.md" file
     1. Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
@@ -23,13 +24,12 @@
 ---  
 
 
-    >ทดลองสร้างตารางครั้งแรกใน .md file 23-Sep-2019 
+    > ทดลองสร้างตารางครั้งแรกใน .md file 23-Sep-2019 
 
-    |---   |---         |---            |
     |ลำดับที่ | ลำดับที่ชื่อเรื่อง | เขียน/สร้าง เมื่อ|
     |---   |---         |---            |
-    |1      |ตอนป่าโลกล้านปี |  23/9/2019  |
-    
+    | 1      |ตอนป่าโลกล้านปี |  23/9/2019  |
+   | 2      | ตอนแงซายจอมจักรา | 25/9/2019        |     
     
     
     
@@ -40,9 +40,9 @@
 
 
   ## last edit 22-july-2019
-  >edit readme file
+  > edit readme file
 
-  >by learn more from youtube video from
+  > by learn more from youtube video from
 
   [![](http://img.youtube.com/vi/pTCROLZLhDM/0.jpg)](http://www.youtube.com/watch?v=pTCROLZLhDM "")
 
@@ -50,10 +50,10 @@
 
   ## make a bold text.
   **make this text bold**
-  >to make text **bold** you have to use 2 stars ** put the text in between the 2 stars then close it with another 2 stars  ** to make bold text.
+  > to make text **bold** you have to use 2 stars ** put the text in between the 2 stars then close it with another 2 stars  ** to make bold text.
 
   ## make a section.
-  >to make a section is simply by enter 3 of * or _ or -
+  > to make a section is simply by enter 3 of * or _ or -
   ***
   ___
 
@@ -65,16 +65,16 @@
 
 
 ## the website to convert is
->to create the link just put < your link in between <> so it will create the link for you > 
+> to create the link just put < your link in between <> so it will create the link for you > 
 
 ## convert youtube video to markdown link 
->go to this website 
+> go to this website 
 <http://embedyoutube.org/>
 
 ---
 
 ## my website is 
->I have create 2 website "**farookphuket.com**" and "**see-southern.com**" which is I do not know what is the content to show in it ha ha.
+> I have create 2 website "**farookphuket.com**" and "**see-southern.com**" which is I do not know what is the content to show in it ha ha.
 
 [farookphuket.com](https://www.farookphuket.com)
     
@@ -84,9 +84,9 @@
 
 ## my photo on the web
 
->to add a picture by just type ! follow by () and put the image url in between the ()
+> to add a picture by just type ! follow by () and put the image url in between the ()
 
->ถ้าจะใส่รูปก็ใช้เครื่องหมายตกใจ ! ตามด้วยวงเล็บแล้วใส่ url ของรูปในวงเล็บ ท่านสามารถใช้ตัวแปรเพื่อเก็บค่าได้ด้วย 
+> ถ้าจะใส่รูปก็ใช้เครื่องหมายตกใจ ! ตามด้วยวงเล็บแล้วใส่ url ของรูปในวงเล็บ ท่านสามารถใช้ตัวแปรเพื่อเก็บค่าได้ด้วย 
 
 ### to ceate the variable การตั้งค่าตัวแปร
 > use the [] to assign the variable follow by : the value of the variable will be after the : sign. eg.
