@@ -11,6 +11,10 @@
 
   <ol>
     <li>
+      Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
+    </li>
+
+    <li>
       Synce with the COM2BUU on 5-Sep-2019
     </li>
      <li>
