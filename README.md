@@ -2,8 +2,49 @@
 
 
 
-## Last edit 26-Aug-2019
+## Last edit 19-Aug-2020
+
+---
+> begin edit sound file เพชรพระอุมา from part จอมพราน on 19-Aug-2020 all day
+
+> to create branch run `git checkout -b <branch name>` 
+
+
+> to list the branch run `git branch`
+
+
+> edit the work from your branch 
+> then if you done and finally want to push it to the github 
+> you may have to commit and push your branch to keep your work first 
+> by run the command `git add .` if you have create or change file 
+> `git commit -am"your commit message" ` 
+> then run push your commit `git push -u origin <your branch name>` 
+> to tell git to watch the file merge your branch with master branch run `git checkout master`
+> `git merge <your branch name>` to merge with your master branch 
+> `git add .` to make sure that you will add everything then `git commit -m"follow by your commit message"` 
+> `git push -u origin master` to update your master branch then you all done!
+
+
+
+---
+
+
+
+
+[web_update_19-Aug-2020]:https://i.ibb.co/LS4PbZ9/web-update-19-aug-2020.png
+
+![farookphuket.com][web_update_19-Aug-2020]
+
+
+
+---
+
+
+
+
 > Edit index.html
+
+
 ---
 > คลิปเสียงตอนที่ 52 ถึง 57 ความยาว 8 ชั่วโมง 19 นาที 45 วินาที upload เมื่อ 28-สิงหาคม-2562 
 
