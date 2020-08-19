@@ -5,6 +5,9 @@
 ## Last edit 19-Aug-2020
 
 ---
+> file เพชรพระอุมา 2-2 ไอ้งาดำ 036 [19-Aug-2020].mp3 is will be a single file to upload
+
+---
 > begin edit sound file เพชรพระอุมา from part จอมพราน on 19-Aug-2020 all day
 
 > to create branch run `git checkout -b <branch name>` 
