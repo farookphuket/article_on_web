@@ -134,13 +134,11 @@
 
 
 
-| ลำดับที่ | ชื่อเรื่อง | เขียน/สร้าง เมื่อ | link
+| ลำดับที่ | ชื่อเรื่อง | เขียน/สร้าง เมื่อ 
 |---   |---         |--- 
 | 1      | ตอนป่าโลกล้านปี |  23/9/2019
 | 2      | ตอนแงซายจอมจักรา | 25/9/2019 
-| 3      | ตอน จอมพราน | 19/10/2020 | 
-- clip 1 to 8 <https://archive.org/embed/2-jom-pran-1-to-8>
-- clip 9 to 16 <https://archive.org/details/clip_9_to_16>
+| 3      | ตอน จอมพราน | 19/10/2020 
 | 4      | ตอน ไอ้งาดำ | 25/10/2020 
 
 
@@ -217,6 +215,10 @@
 
 
 [farookphuket.com](https://www.farookphuket.com)
+
+> see 
+<https://farookphuket.com>
+
 [farookphuket.com]:https://i.ibb.co/LS4PbZ9/web-update-19-aug-2020.png
 ![farookphuket website][farookphuket.com]
 
@@ -224,6 +226,10 @@
 
 
 [see-southern.com](https://www.see-southern.com)
+
+> see more 
+<https://www.see-southern.com>
+
 [see-southern_web]:https://i.ibb.co/DwrHSXW/see-southern.png
 ![see southern website][see-southern_web]
 
