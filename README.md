@@ -1,8 +1,15 @@
-# Article template to show on the web
+# Save video and audio link for my website 
+
+> last edit from 22-Aug-2020 | laptop
 
 
 
 ## Last edit 19-Aug-2020
+
+
+
+
+
 
 ---
 > file เพชรพระอุมา 2-2 ไอ้งาดำ 036 [19-Aug-2020].mp3 is will be a single file to upload
@@ -40,64 +47,132 @@
 
 
 
+
+
+
+
+
+
 ---
 
 
 
 
-> Edit index.html
+
+
+
+
+
+
+
+# git from youtube 
+
+> I learn git command  from youtube 18 Jan 2020
+
+
+[video_1]:https://img.youtube.com/vi/FyAAIHHClqI/0.jpg
+![git youtube video][video_1]
+
+
+
+
+
+
+## Introduction to Git - Core Concepts 
+[![Introduction to Git - Core Concepts](http://img.youtube.com/vi/uR6G2v_WsRA/0.jpg)](http://www.youtube.com/watch?v=uR6G2v_WsRA "")
+
+
+
+
+## Introduction to Git - Branching and Merging
+[![Introduction to Git - Branching and Merging](http://img.youtube.com/vi/FyAAIHHClqI/0.jpg)](http://www.youtube.com/watch?v=FyAAIHHClqI "")
+
+
+## Introduction to Git - Remotes 
+[![Introduction to Git - Remotes](http://img.youtube.com/vi/Gg4bLk8cGNo/0.jpg)](http://www.youtube.com/watch?v=Gg4bLk8cGNo "")
+
+
+
+
+
+
+
+
+
 
 
 ---
-> คลิปเสียงตอนที่ 52 ถึง 57 ความยาว 8 ชั่วโมง 19 นาที 45 วินาที upload เมื่อ 28-สิงหาคม-2562 
 
----
-    # List of edit
 
-    1. ตี 2:23 ของวันที่ 23 กันยา 2562 ผมยังไม่นอน เพราะว่านอนกลางวันเยอะ
-    1. Mon 23 Sep 2019 Edit "README.md" file
-    1. Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
-    1. 3-Sep-2019 edit "README.md" file on the "main machine"
-    1. Synce with the COM2BUU on 5-Sep-2019
-    2. Set up Shutter "edit button disabled" 3-Sep-2019
-    2. Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
-    1. เพชรพระอุมา ตอน ไพรมหากาฬ 
-    1. คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
-    1. with mod page show on "Jun-ta-bu-ri" my belove!
+
+# List of edit today
+
+- date 22-Aug-2020
+1. 1:28 p.m. edit README.md file then merge laptop branch to master branch 
+1. update README.md file to fix the show list 
+- this will be the list after list
+1. this will be the list with the number after - list
+
+
+1.   edit the index.html file to add more link sound link
+1. ตี 2:23 ของวันที่ 23 กันยา 2562 ผมยังไม่นอน เพราะว่านอนกลางวันเยอะ
+1. Mon 23 Sep 2019 Edit "README.md" file
+1. Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
+1. 3-Sep-2019 edit "README.md" file on the "main machine"
+1. Synce with the COM2BUU on 5-Sep-2019
+2. Set up Shutter "edit button disabled" 3-Sep-2019
+2. Edit README.md on Ubuntu 18.04.3 LTS 30 Aug 2019 
+1. เพชรพระอุมา ตอน ไพรมหากาฬ 
+1. คลิปเสียงเพชรพระอุมา ตอน ดงมรณะ Upload เมื่อ 1 กันยายน 2562 
+1. with mod page show on "Jun-ta-bu-ri" my belove!
 
 ---  
 
 
-    > ทดลองสร้างตารางครั้งแรกใน .md file 23-Sep-2019 
-
-    |ลำดับที่ | ลำดับที่ชื่อเรื่อง | เขียน/สร้าง เมื่อ|
-    |---   |---         |---            |
-    | 1      |ตอนป่าโลกล้านปี |  23/9/2019  |
-   | 2      | ตอนแงซายจอมจักรา | 25/9/2019        |     
-    
-    
-    
-    ***
-  > **This is the back-up file (I hope)**
+> ทดลองสร้างตารางครั้งแรกใน .md file 23-Sep-2019 
+> แก้ไขให้การแสดงผลของ table ถูกต้อง 22-Aug-2020
 
 
 
+| ลำดับที่ | ชื่อเรื่อง | เขียน/สร้าง เมื่อ 
+|---   |---         |--- 
+| 1      | ตอนป่าโลกล้านปี |  23/9/2019
+| 2      | ตอนแงซายจอมจักรา | 25/9/2019 
+| 3      | ตอน จอมพราน | 19/10/2020 
+| 4      | ตอน ไอ้งาดำ | 25/10/2020 
 
-  ## last edit 22-july-2019
-  > edit readme file
 
-  > by learn more from youtube video from
+
+
+> **This is the back-up file (I hope)**
+
+
+
+
+## last edit 22-july-2019
+
+> edit readme file by learn more from youtube video from
 
   [![](http://img.youtube.com/vi/pTCROLZLhDM/0.jpg)](http://www.youtube.com/watch?v=pTCROLZLhDM "")
 
-  ---
 
-  ## make a bold text.
-  **make this text bold**
-  > to make text **bold** you have to use 2 stars ** put the text in between the 2 stars then close it with another 2 stars  ** to make bold text.
 
-  ## make a section.
-  > to make a section is simply by enter 3 of * or _ or -
+
+---
+
+
+## make a bold text.
+
+**make this text bold**
+
+
+> to make text **bold** you have to use 2 stars ** put the text in between the 2 stars then close it with another 2 stars  ** to make bold text.
+
+
+## make a section.
+
+> to make a section is simply by enter 3 of * or _ or - 
+
   ***
   ___
 
@@ -108,23 +183,67 @@
 
 
 
+
+---
+
+
+
+
+
+
+
 ## the website to convert is
 > to create the link just put < your link in between <> so it will create the link for you > 
 
 ## convert youtube video to markdown link 
+
 > go to this website 
 <http://embedyoutube.org/>
 
+
+
+
+
+
 ---
+
+
 
 ## my website is 
 > I have create 2 website "**farookphuket.com**" and "**see-southern.com**" which is I do not know what is the content to show in it ha ha.
 
+
+
+
+
+
 [farookphuket.com](https://www.farookphuket.com)
-    
+
+[farookphuket.com]:https://i.ibb.co/LS4PbZ9/web-update-19-aug-2020.png
+![farookphuket website][farookphuket.com]
+
+> see 
+<https://farookphuket.com>
+
+
+
+
+
+
+
 [see-southern.com](https://www.see-southern.com)
 
+[see-southern_web]:https://i.ibb.co/DwrHSXW/see-southern.png
+![see southern website][see-southern_web]
+> see more 
+<https://www.see-southern.com>
+
+
+
+
+
 ---
+
 
 ## my photo on the web
 
