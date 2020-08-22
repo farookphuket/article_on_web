@@ -45,10 +45,20 @@
 
 
 
-# git merge video link 
+# git from youtube 
+
+> I learn git command  from youtube 18 Jan 2020
+[video_1][https://img.youtube.com/vi/FyAAIHHClqI/0.jpg]
+![git youtube video][video_1]
 
 
-> Learn git command from youtube link 22-Aug-2020 8:23 a.m.  
+
+## Introduction to Git - Core Concepts 
+[![Introduction to Git - Core Concepts](http://img.youtube.com/vi/uR6G2v_WsRA/0.jpg)](http://www.youtube.com/watch?v=uR6G2v_WsRA "")
+
+
+
+
 
 
 
