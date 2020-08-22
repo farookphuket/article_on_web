@@ -1,8 +1,15 @@
-# Article template to show on the web
+# Save video and audio link for my website 
+
+> last edit from 22-Aug-2020 | laptop
 
 
 
 ## Last edit 19-Aug-2020
+
+
+
+
+
 
 ---
 > file เพชรพระอุมา 2-2 ไอ้งาดำ 036 [19-Aug-2020].mp3 is will be a single file to upload
@@ -40,15 +47,22 @@
 
 
 
----
 
+
+
+
+
+
+---
 
 
 
 # git from youtube 
 
 > I learn git command  from youtube 18 Jan 2020
-[video_1][https://img.youtube.com/vi/FyAAIHHClqI/0.jpg]
+
+
+![video_1][https://img.youtube.com/vi/FyAAIHHClqI/0.jpg]
 ![git youtube video][video_1]
 
 
@@ -59,21 +73,20 @@
 
 
 
+## Introduction to Git - Branching and Merging
+[![Introduction to Git - Branching and Merging](http://img.youtube.com/vi/FyAAIHHClqI/0.jpg)](http://www.youtube.com/watch?v=FyAAIHHClqI "")
+
+
+## Introduction to Git - Remotes 
+[![Introduction to Git - Remotes](http://img.youtube.com/vi/Gg4bLk8cGNo/0.jpg)](http://www.youtube.com/watch?v=Gg4bLk8cGNo "")
 
 
 
-[![](http://img.youtube.com/vi/FyAAIHHClqI/0.jpg)](http://www.youtube.com/watch?v=FyAAIHHClqI "")
-
-
-
-
-
-
-
-> Edit index.html
 
 
 ---
+
+
 > คลิปเสียงตอนที่ 52 ถึง 57 ความยาว 8 ชั่วโมง 19 นาที 45 วินาที upload เมื่อ 28-สิงหาคม-2562 
 
 ---
