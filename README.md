@@ -45,6 +45,21 @@
 
 
 
+# git merge video link 
+
+
+> Learn git command from youtube link 22-Aug-2020 8:23 a.m.  
+
+
+
+[![](http://img.youtube.com/vi/FyAAIHHClqI/0.jpg)](http://www.youtube.com/watch?v=FyAAIHHClqI "")
+
+
+
+
+
+
+
 > Edit index.html
 
 
