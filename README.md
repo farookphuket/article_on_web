@@ -107,8 +107,14 @@
 
 # List of edit today
 
-1.  - date 22-Aug-2020 1:28 p.m. edit README.md file then merge laptop branch to master branch 
-1.  - edit the index.html file to add more link sound link
+- date 22-Aug-2020
+1. 1:28 p.m. edit README.md file then merge laptop branch to master branch 
+1. update README.md file to fix the show list 
+- this will be the list after list
+1. this will be the list with the number after - list
+
+
+1.   edit the index.html file to add more link sound link
 1. ตี 2:23 ของวันที่ 23 กันยา 2562 ผมยังไม่นอน เพราะว่านอนกลางวันเยอะ
 1. Mon 23 Sep 2019 Edit "README.md" file
 1. Synce with the laptop on 23 Sep 2019 12:47 a.m. @มบูรพา ที่รัก สระแก้ว
