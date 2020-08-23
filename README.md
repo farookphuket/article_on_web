@@ -110,10 +110,14 @@
 
 # List of edit today
 
+
+
+- date 23 Aug 2020
+1.  7:30 a.m. start convert file จิตรางคนางค์ 73 to 112 = 40 files
+1. The first part start from clip 73 End with 82 
 - date 22-Aug-2020
 1. 1:28 p.m. edit README.md file then merge laptop branch to master branch 
 1. update README.md file to fix the show list 
-- this will be the list after list
 1. this will be the list with the number after - list
 
 
