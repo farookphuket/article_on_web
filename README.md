@@ -111,7 +111,9 @@
 # List of edit today
 
 
-
+- date 24 Aug 2020
+1.  แก้คลิปเสียง 83 ถึง 89 
+1.  upload clip 73 to 82 on 8:27 a.m.
 - date 23 Aug 2020
 1.  7:30 a.m. start convert file จิตรางคนางค์ 73 to 112 = 40 files
 1. The first part start from clip 73 End with 82 
