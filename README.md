@@ -7,12 +7,13 @@
 
 
 
-## Last edit 19-Aug-2020
+## Last edit 25-Aug-2020
 
 
 
 
-
+---
+> edit sound clip part 4 from file 95 to 103 
 
 ---
 > file เพชรพระอุมา 2-2 ไอ้งาดำ 036 [19-Aug-2020].mp3 is will be a single file to upload
