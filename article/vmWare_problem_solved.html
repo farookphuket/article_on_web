@@ -92,20 +92,29 @@
 
                             <h1 class="text-center">
                                 
-                                <a href="https://www.youtube.com/watch?v=uR6G2v_WsRA&t=80s" target="_blank">
                                     Manjaro guest NOT auto resize window
-                                </a>
                             </h1>
 
                             <p>
-                                The first thing after I install manjaro I do full update by run the command [ sudo pacman -Syyu --noconfirm]
+                                report from 30-Aug-2020 : I cannot find any solution to fix the problem so I install `virtualbox` and try to get it work the step I did was "NOTE" if you do the below step you will never boot the same manjaro from vmware at all!
+            
                             </p>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    sudo pacman -Syyu --noconfirm
+                                    Create new 'manjaro' box but use the hard disk from vmware
                                 </li>
-                                <li class="list-group-item"></li>
-                                <li class="list-group-item"></li>
+                                <li class="list-group-item">
+                                     do full update system in manjaro guest os that boot from virtualbox to update the package run command `sudo pacman -Syyu --noconfirm`
+                                </li>
+                                <li class="list-group-item">
+                                    check what is my linux-headers by command `mhwd-kernel -li` the result on mine now is *linux57 so the next command I will run is `sudo pacman -S linux57-headers` then reboot after install is complete
+
+                                </li>
+                                <li class="list-group-item">
+                                the next thing to do install vbox-guest-additions success!  
+
+
+                                </li>
                             </ul>
 
                             <p class="text-center pt-4">
@@ -128,6 +137,7 @@
 
 
                         </li>
+
 
 
                         <li>
