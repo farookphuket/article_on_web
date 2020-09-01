@@ -128,8 +128,8 @@ image responsive
 
 .sound-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    padding-bottom: 8.4%;
+    padding-top: 6px; height: 0; overflow: hidden;
     }
     
 .sound-container iframe,
@@ -139,7 +139,7 @@ image responsive
     top: 0;
     left: 0;
     width: 100%;
-    height: 35%;
+    height: 100%;
 }
 
 /*

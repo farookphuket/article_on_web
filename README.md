@@ -11,7 +11,31 @@
 
 ---
 
-> edit and upload the first part of นาคเทวี clip 113 to 124 1 Sep 2020 3:25 p.m.
+> edit and upload the first part of นาคเทวี clip 113 to 124 1 Sep 2020 3:25 p.m. 
+
+> update the custom_theme.css file by adding .sound-container just like below 
+
+```
+   /*
+    update 1-Sep-2020
+   */
+.sound-container {
+    position: relative;
+    padding-bottom: 8.4%;
+    padding-top: 6px; height: 0; overflow: hidden;
+    }
+    
+.sound-container iframe,
+.sound-container object,
+.sound-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+```
 
 
 [ntv_pet]:https://lh3.googleusercontent.com/tSlpB6zR80lE6-nmKRwdoAF22gO99resNEWbhmA-aGOU92AG3HGSX6OrThqd4K6dHTbVsFEKlOC0D9cdiWip6ZTQlddJc4V3_NuuTi_jgGzS9Acb9_Ei1HNOKWoYYqVoHLIv1bCLDGY=w2400
