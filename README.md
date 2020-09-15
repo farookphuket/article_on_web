@@ -6,13 +6,25 @@
 
 
 
+---
+
 
 
 # edit report list
 
+- 15 Sep 2020
+1.  update sound clip from laptop
+2.  update README.md file from desktop and get the new link for project
+
+
 - 14 Sep 2020
 1. upload clip 136 to 144 
 2. update from desktop computer 
+
+
+
+
+---
 
 
 
