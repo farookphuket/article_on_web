@@ -20,7 +20,8 @@
 - 15 Sep 2020
 1.  update sound clip from laptop
 2.  update README.md file from desktop merge desktop branch to master and get the new link for project on desktop 
-3.  try to finish the part 3 of นาคเทวี (if it possible!)
+3.  try to finish the part 3 of นาคเทวี (if it possible!) Vola! done with นาคเทวี now can move to the next part
+4.  start to convert file from desktop of the part มงกุฎไพร on 15-Sep-2020 10:00 p.m. 
 
 
 - 14 Sep 2020
