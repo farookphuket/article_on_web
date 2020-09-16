@@ -12,6 +12,11 @@
 
 # edit report list
 
+
+- 16 Sep 2020
+1.  uploaded part 176-185 
+2.  Success config laravel connect to sqlite in Manjaro
+
 - 15 Sep 2020
 1.  update sound clip from laptop
 2.  update README.md file from desktop merge desktop branch to master and get the new link for project on desktop 
