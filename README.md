@@ -16,7 +16,8 @@
 > Japanese girl?
 
 
-[sexy_girl]:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FLuffy-Sexy-Girl-Wallpapers-2%2Fdp%2FB00YSRNGX4&psig=AOvVaw3ky0Q74QGqwlMPuZbcek4m&ust=1600474750195000&source=images&cd=vfe&ved=2ahUKEwiG9faYt_HrAhVbTSsKHRhACJAQjRx6BAgAEAc
+[sexy_girl]:https://images-na.ssl-images-amazon.com/images/I/713Efs1968L.jpg
+
 ![sexy girl][sexy_girl]
 
 
