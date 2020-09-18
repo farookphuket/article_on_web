@@ -1,8 +1,30 @@
 # Save video and audio link for my website 
 
+##   Dear friends!
+>   this is NOT USEFUL repo in any reason so if you ever come a cross
+>   so just ignore them because it's will not give you any value at all!
+>   thank you.
 
 
-> เพิ่งกลับมาจาก สุราษฯ ตี 12 ของวันที่ 13 กันยา 2563 วันนี้วันที่ 14 ได้อัพโหลดเพิ่มอีก คลิปเสียง 136 ถึง 144 
+
+
+
+
+#   Are you sexy?
+
+
+> Japanese girl?
+
+
+[sexy_girl]:https://images-na.ssl-images-amazon.com/images/I/713Efs1968L.jpg
+
+![sexy girl][sexy_girl]
+
+
+>   or Forein girl?
+
+[forein_girl]:https://papers.co/wallpaper/papers.co-hs89-sierra-skye-model-sexy-girl-bikini-34-iphone6-plus-wallpaper.jpg
+![forein girl][forein_girl]
 
 
 
@@ -12,6 +34,10 @@
 
 # edit report list
 
+-   18 Sep 2020 by Asus laptop 
+1.  start edit 5:23 a.m. of 'ตอน แต่ปางบรรพ์ clip 186-194' in part 4
+2.  upload sound clip at 7:14 a.m. process DONE!
+3.  added sexy girl pic too. STATUS : success!
 
 - 16 Sep 2020
 1.  uploaded part 176-185 
