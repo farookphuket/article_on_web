@@ -1,8 +1,20 @@
 # Save video and audio link for my website 
 
+##   Dear friends!
+>   this is NOT USEFUL repo in any reason so if you ever come a cross
+>   so just ignore them because it's will not give you any value at all!
+>   thank you.
 
 
-> เพิ่งกลับมาจาก สุราษฯ ตี 12 ของวันที่ 13 กันยา 2563 วันนี้วันที่ 14 ได้อัพโหลดเพิ่มอีก คลิปเสียง 136 ถึง 144 
+
+
+
+
+#   Are you sexy?
+
+[sexy_girl]:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FLuffy-Sexy-Girl-Wallpapers-2%2Fdp%2FB00YSRNGX4&psig=AOvVaw3ky0Q74QGqwlMPuZbcek4m&ust=1600474750195000&source=images&cd=vfe&ved=2ahUKEwiG9faYt_HrAhVbTSsKHRhACJAQjRx6BAgAEAc
+![sexy girl][sexy]
+
 
 
 
@@ -12,6 +24,10 @@
 
 # edit report list
 
+-   18 Sep 2020 by Asus laptop 
+1.  start edit 5:23 a.m. of 'ตอน แต่ปางบรรพ์ clip 186-194' in part 4
+2.  upload sound clip at 7:14 a.m. process DONE!
+3.  added sexy girl pic too.
 
 - 16 Sep 2020
 1.  uploaded part 176-185 
@@ -20,7 +36,7 @@
 - 15 Sep 2020
 1.  update sound clip from laptop
 2.  update README.md file from desktop merge desktop branch to master and get the new link for project on desktop 
-3.  try to finish the part 3 of นาคเทวี (if it possible!)
+3.  try to finish the part 3 of นาคเทวี (if it possible!) yes, all done!
 
 
 - 14 Sep 2020
