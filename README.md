@@ -12,9 +12,16 @@
 
 #   Are you sexy?
 
-[sexy_girl]:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FLuffy-Sexy-Girl-Wallpapers-2%2Fdp%2FB00YSRNGX4&psig=AOvVaw3ky0Q74QGqwlMPuZbcek4m&ust=1600474750195000&source=images&cd=vfe&ved=2ahUKEwiG9faYt_HrAhVbTSsKHRhACJAQjRx6BAgAEAc
-![sexy girl][sexy]
 
+> Japanese girl?
+[sexy_girl]:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FLuffy-Sexy-Girl-Wallpapers-2%2Fdp%2FB00YSRNGX4&psig=AOvVaw3ky0Q74QGqwlMPuZbcek4m&ust=1600474750195000&source=images&cd=vfe&ved=2ahUKEwiG9faYt_HrAhVbTSsKHRhACJAQjRx6BAgAEAc
+![sexy girl][sexy_girl]
+
+
+>   or Forein girl?
+
+[forein_girl]:https://papers.co/wallpaper/papers.co-hs89-sierra-skye-model-sexy-girl-bikini-34-iphone6-plus-wallpaper.jpg
+![forein girl][forein_girl]
 
 
 
