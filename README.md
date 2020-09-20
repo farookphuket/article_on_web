@@ -34,6 +34,13 @@
 
 # edit report list
 
+
+-   20 Sep 2020 
+1.  re-format article of เพชรพระอุมา done with มงกุฎไพร part 1 
+2.  update new index.html for easier to see and clean looking great Dude!
+
+---
+
 -   18 Sep 2020 by Asus laptop 
 1.  start edit 5:23 a.m. of 'ตอน แต่ปางบรรพ์ clip 186-194' in part 4
 2.  upload sound clip at 7:14 a.m. process DONE!
