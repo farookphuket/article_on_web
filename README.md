@@ -34,6 +34,13 @@
 
 # edit report list
 
+-   date 23 Sep 2020 
+1.  finish up project เพชรพระอุมา! vola!!
+
+
+
+
+---
 
 -   20 Sep 2020 
 1.  re-format article of เพชรพระอุมา done with มงกุฎไพร part 1 
