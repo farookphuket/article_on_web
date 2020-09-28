@@ -34,6 +34,10 @@
 
 # edit report list
 
+-   date 28 Sep 2020
+1.  Added google Adsense key for searching
+
+---
 -   date 23 Sep 2020 
 1.  finish up project เพชรพระอุมา! vola!!
 
