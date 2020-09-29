@@ -34,6 +34,13 @@
 
 # edit report list
 
+
+-   date 29 Sep 2020
+1.  install phpmyadmin on "Debian" and fix the problem of "cannot run command laravel" from composer
+
+
+---
+
 -   date 28 Sep 2020
 1.  Added google Adsense key for searching
 
