@@ -35,6 +35,13 @@
 # edit report list
 
 
+-   date 30 Sep 2020
+1.  ใส่ลิ้งดาวน์โหลดให้หน้า 19 20 21 เช้านี้เก็บงานของโปรเจค "เพชรพระอุมา" ไปเรียบร้อยแล้ว (6:27 a.m.)
+
+
+
+---
+
 -   date 29 Sep 2020
 1.  install phpmyadmin on "Debian" and fix the problem of "cannot run command laravel" from composer
 
