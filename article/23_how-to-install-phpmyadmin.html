@@ -35,7 +35,7 @@
 
           <div class="col-md-4">
             <img src="https://i.ibb.co/KmsDfQ8/php-Myadmin.png" class="responsive">
-            <p>install phpmyadmin</p>
+            <p>How do I setup lamp server on debian 10</p>
           </div>
 
 
@@ -61,9 +61,148 @@
                     Last try on 28 Sep 2020 while install it on Debian 10
                     </p>
                     <ol class="list-group">
+
                         <li class="list-group-item">
                             <h3 class="text-center">
-                            Install apache and PHP
+                            Install Apache
+                            </h3>
+                            <p>
+                            you may need to update your system first the command below will update and install apache2.
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt update && sudo apt install apache2 -y</textarea>
+
+                            </div>
+
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+
+                            </h3>
+                            <p class="pt-4 mb-4">
+                           Next, assuming that you have followed the initial server setup instructions by installing and enabling the UFW firewall, make sure that your firewall allows HTTP and HTTPS traffic. but if you don't have one now let run this command
+                            </p>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt install ufw -y</textarea>
+
+                            </div>
+                            <p class="pt-4 mb-4">
+                            Allow incoming HTTP and HTTPS traffic for this profile:
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo ufw allow in "WWW Full"</textarea>
+
+                            </div>
+
+                            <p class="pt-4 mb-4">
+                            You can do a spot check right away to verify that everything went as planned by visiting your server’s public IP address in your web browser for now it might be say "unable to connect" it is because the apache2 server is not running yet the command below will check the status of apache web server
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo systemctl status apache2
+sudo systemctl start apache2
+sudo systemctl enable apache2
+</textarea>
+
+                            </div>
+                            <p class="pt-4mb-4 text-center">
+                            now when you type "127.0.0.1" in you web browser will show the apache index page
+                            </p>
+                            <p class="pt-4 mb-4">
+                            Install mariadb
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt install mariadb-server </textarea>
+
+                            </div>
+                            <p class="pt-4 mb-4">
+                            after you have install let check if the service is run? "sudo systemctl status mysql" if it not load yet you have to enable it too "sudo systemctl start mysql"
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo ufw allow in "WWW Full"</textarea>
+
+                            </div>
+                            <p class="pt-4 mb-4">now you can go next page</p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo mysql_secure_installation</textarea>
+
+                            </div>
+                           <p>
+
+                           </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo mysql
+showdatabases;
+use mysql;
+ALTER USER 'root'@'localhost' IDENTIFIED BY '1234';
+FLUSH PRIVILEGES;
+quit;
+</textarea>
+
+                            </div>
+                            <p>
+                            now let try to login with root
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">mysql -u root -p</textarea>
+
+                            </div>
+                            <p>
+                            now you can access mysql let go to the next step.
+                            </p>
+                            <p>
+                            we have to the picture here
+                            </p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            Step 3 — Installing PHP
+                            </h3>
+                            <p>
+                            PHP is the component of your setup that will process code to display dynamic content. It can run scripts, connect to your MariaDB databases to get information, and hand the processed content over to your web server to display.
+
+                            </p>
+                            <p>
+Once again, leverage the apt system to install PHP. In addition, include some helper packages which will ensure that PHP code can run under the Apache server and talk to your MariaDB database:
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt install php libapache2-mod-php php-mysql php-intl php-xml php-gd</textarea>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+
+                            </h3>
+                            <p>
+
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name=""></textarea>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+
+                            </h3>
+                            <p>
+
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name=""></textarea>
+
+                            </div>
+
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            Install PHP
                             </h3>
 
                             <div class="form-group">
@@ -138,7 +277,7 @@ sudo unzip phpMyAdmin-5.0.2-all-languages.zip  -d  /opt</textarea>
                                 <textarea class="form-control" rows="13" name=""><VirtualHost *:9000>
 ServerAdmin webmaster@localhost
 DocumentRoot /opt/phpMyAdmin
- 
+
 <Directory /opt/phpMyAdmin>
 Options Indexes FollowSymLinks
 AllowOverride none
@@ -165,7 +304,7 @@ To do that, edit the /etc/apache2/ports.conf configuration file with the followi
                             Now, enable the phpMyAdmin site that we’ve just configured with the following command:
                             </p>
 
-                            
+
                             <div class="form-group">
                                 <textarea class="form-control" name="">sudo a2ensite phpmyadmin.conf</textarea>
                             </div>
@@ -173,7 +312,7 @@ To do that, edit the /etc/apache2/ports.conf configuration file with the followi
                             <p class="pt-4 mb-4">
                                 edit your /etc/hosts file.
                             </p>
-                                
+
                             <div class="form-group">
                                 <textarea class="form-control" name="">sudo vim /etc/hosts</textarea>
                             </div>
@@ -181,16 +320,16 @@ To do that, edit the /etc/apache2/ports.conf configuration file with the followi
 
 
                             <p class="pt-4 mb-4">
-                           so you don't have to type "localhost" instead you just type "phpmyadmin:9000" in your browser then you will get the phpmyadmin login page. okay now, restart Apache web server with the following command: 
+                           so you don't have to type "localhost" instead you just type "phpmyadmin:9000" in your browser then you will get the phpmyadmin login page. okay now, restart Apache web server with the following command:
                             </p>
-                            
+
                             <div class="form-group">
                                 <textarea class="form-control" name="">sudo systemctl reload apache2</textarea>
                             </div>
                         </li>
                         <li class="list-group-item">
                             <h3 class="text-center">
-                               well, let's try out now 
+                               well, let's try out now
                             </h3>
                             <p>
                             now type "phpmyadmin:9000" you should see the login page
@@ -207,17 +346,17 @@ To do that, edit the /etc/apache2/ports.conf configuration file with the followi
                         <li class="list-group-item">
 
                             <h3 class="text-center">
-                            login with your mysql account 
+                            login with your mysql account
                             </h3>
                             <p class="pt-4 mb-4">
-                            in my case here my account is "root" my password 
+                            in my case here my account is "root" my password
                             is "1234" open up you will see warning like this
                             yeah , that's seem to be somthing hosekeeper to do for us
                             let fix the first warning.
                             </p>
                             <img src="https://i.ibb.co/cw4K4xn/config-inc.png" alt="" class="responsive">
                             <p class="pt-4 mb-4">
-                            to fix the first warning click on the link "find out why" 
+                            to fix the first warning click on the link "find out why"
                             </p>
                             <img src="https://i.ibb.co/MVbKJ81/pmadb-conf.png" alt="" class="responsive">
                             <p class="pt-4 mb-4">
@@ -242,7 +381,7 @@ To do that, edit the /etc/apache2/ports.conf configuration file with the followi
                                 Laravel command NOT FOUND!
                             </h3>
                             <p class="pt-4 mb-4">
-                                if you're using Debian 10 and when you run command "laravel" and you get the error said "larvel command not found" it is maybe because the composer bin PATH is not correct. all you have to do is edit the file ".bashrc" or ".zshrc" in your home directory now open file ".bashrc" or ".zshrc" then put the code below into the file save and close it now open terminal again type "laravel" you should see the result like the below picture 
+                                if you're using Debian 10 and when you run command "laravel" and you get the error said "larvel command not found" it is maybe because the composer bin PATH is not correct. all you have to do is edit the file ".bashrc" or ".zshrc" in your home directory now open file ".bashrc" or ".zshrc" then put the code below into the file save and close it now open terminal again type "laravel" you should see the result like the below picture
                             </p>
                             <div class="form-group">
                                 <textarea class="form-control" rows="8"># Add Composer bin-dir to PATH if it is installed.
