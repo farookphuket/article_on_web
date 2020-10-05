@@ -2,15 +2,17 @@
 <html>
   <head>
     <title>This is the template file please change the title here</title>
-    <!-- Copy this to use in every document--> 
-    <!--Copy Out source Start --> 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Copy this to use in every document-->
+    <!--Copy Out source Start -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Copy Out source End -->
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/custom_theme.css">
+    <!-- Copy Out source End -->
   </head>
 
   <body>
@@ -31,21 +33,21 @@
     <section id="article_summary">
       <div class="container">
         <div class="row">
-          
+
           <div class="col-md-4">
             <img src="https://www.ostechnix.com/wp-content/uploads/2019/02/lamp-720x340.jpg" class="responsive">
             <p class="text-center">
-              <a style="font-weight:bold;color:white;" href="https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/" target="_blank" class="btn btn-primary btn-xs">Click to read the original post</a> 
-            </p>			
+              <a style="font-weight:bold;color:white;" href="https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/" target="_blank" class="btn btn-primary btn-xs">Click to read the original post</a>
+            </p>
           </div>
           <div class="col-md-8">
             <p>
               This is the template file<br />
               Copy this file to start your new "Article" by change the content in here!
-            
+
             </p>
-          </div>		
-        </div>	
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Of Summary -->
@@ -57,7 +59,7 @@
         <div class="col-lg-12">
           <h1 class="text-center">Install & setup apache web server on 5 Sep 2019</h1>
           <p>
-            The set-up server follow from the web site <strong>https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/</strong> 
+            The set-up server follow from the web site <strong>https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/</strong>
 
           </p>
           <h2 class="text-center">Install apache</h2>
@@ -67,17 +69,17 @@
           <p>
             <ol>
               <li class="alert alert-warning">
-                <p> 
-                  sudo bash 
+                <p>
+                  sudo bash
                   <span style="font-weight:bold;color:gray;">
                     #need to be root user
                   </span>
-                </p> 
+                </p>
               </li>
               <li class="alert alert-warning">
                 <p>
                   <span style="font-weight:bold;color:gray;">
-                    #update and upgrade the system before install new package 
+                    #update and upgrade the system before install new package
                   </span>
                   <br />
                   apt update && apt upgrade -y
@@ -86,16 +88,16 @@
               <li class="alert alert-warning">
                 <p>
                   <span style="font-weight:bold;color:gray;">
-                    # to install apache run  
+                    # to install apache run
                   </span>
                   <br />
-                  apt install apache2 -y 
+                  apt install apache2 -y
                 </p>
               </li>
                <li class="alert alert-warning">
                 <p>
                   <span style="font-weight:bold;color:gray;">
-                  # config for the mod rewrite  
+                  # config for the mod rewrite
                   </span>
                   <br />
                   vi /etc/apache2/apache2.conf
@@ -105,7 +107,7 @@
 
                 </p>
                 <p style="color:gray;">
-                 # press :wq to save and exit from edit the config file to restart the apache service type   
+                 # press :wq to save and exit from edit the config file to restart the apache service type
                 </p>
                 <p>
                   systemctl restart apache2
@@ -120,9 +122,9 @@
           </p>
         </div>
 
-          
-      </div>	
-    
+
+      </div>
+
     </div>
 
   </section>

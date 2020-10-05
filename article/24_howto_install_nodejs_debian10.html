@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>how do I install phpmyadmin on debian 10 </title>
+    <title>How do I install nodjs on Debian 10</title>
     <meta charset="utf-8" />
     <!-- Copy this to use in every document-->
-
-
-
     <!--Copy Out source Start -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script src="../js/jquery.js"></script>
-    <script src="../js/popper.js"></script>
-    <link rel="stylesheet" href="../js/bootstrap.min.css">
-    <script src="../js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Copy Out source End -->
     <link rel="stylesheet" href="../css/custom_theme.css">
-
-
-
   </head>
 
   <body>
     <!-- add "back home button" on 26-Aug-2019 -->
     <div class="float-right">
-      <button class="btn btn-primary lnBack">Back</button>
+      <button class="btn btn-primary lnBack">Back Home</button>
     </div>
     <script>
       $(function(){
         $(".lnBack").on("click",function(){
-          var url = "25_howto_in_debian10.shtml";
+          var url = "../index.html";
           location.href=url;
         });
       });
@@ -41,14 +34,14 @@
         <div class="row">
 
           <div class="col-md-4">
-            <img src="https://i.ibb.co/KmsDfQ8/php-Myadmin.png" class="responsive">
-            <p>How do I setup lamp server on debian 10</p>
+            <img src="" class="responsive">
+            <p>How do I install nodejs on debian 10</p>
           </div>
 
 
 
           <div class="col-md-8">
-            <h1 class="text-center">How to install phpmyadmin on Debian 10</h1>
+            <h1 class="text-center">How to install nodejs on Debian 10</h1>
 
           </div>
 
@@ -65,19 +58,18 @@
                 <div class="col-lg-12">
                     <h1 class="text-center">Debian 10 buster</h1>
                     <p>
-                    Last try on 28 Sep 2020 while install it on Debian 10
+                    Last edit on 2 Oct 2020 
                     </p>
                     <ol class="list-group">
 
                         <li class="list-group-item">
                             <h3 class="text-center">
-                            Install Apache
+                            check if we have it
                             </h3>
-                            <p>
-                            you may need to update your system first the command below will update and install apache2.
-                            </p>
+                            <p>to check the version of nodejs on your system type the command "nodejs -v" to check the version of npm is "npm -v" in my case here I have nodejs install already so that's why it show the version of nodejs but when I type "npm -v" you'll see that it say "npm command not found" that is because I don't have one </p>
                             <div class="form-group">
-                                <textarea class="form-control" name="">sudo apt update && sudo apt install apache2 -y</textarea>
+                                <textarea class="form-control" name="">nodejs -v
+npm -v</textarea>
 
                             </div>
 

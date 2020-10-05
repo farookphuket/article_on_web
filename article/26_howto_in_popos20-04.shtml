@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How do I setup Things on PoP_OS</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="utf-8" />
+    <!-- Copy this to use in every document-->
+    <!--Copy Out source Start -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Copy Out source End -->
+    <link rel="stylesheet" href="../css/custom_theme.css">
+    <script type="text/javascript">
+        $(function(){
+            $.ajaxSetup({ cache: false });
+            let fname = "../INC/_SUB_NAV.shtml";
+            $("#nav").load(fname);
+
+
+        });
+    </script>
+    
+  </head>
+
+    
+  <body>
+    <!-- add "back home button" on 26-Aug-2019 -->
+    <div id="nav"></div>
+    
+    <div class="container">
+    <!--summary start-->
+    <section id="article_summary">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <img src="" class="responsive">
+            <p>How to do things in POP!_OS</p>
+          </div>
+
+
+
+          <div class="col-md-8">
+            <h1 class="text-center">How to do thing in PoP_OS</h1>
+            <p class="alert alert-danger pt-4 mb-4">
+this is a "How-TO" page of PoP_OS so if you use another just checkout another page base on your system because this command here may not gonna work on your system
+
+            </p>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BODY START -->
+    <section id="article_body">
+
+    </section>
+    <script type="text/javascript">
+        $(function(){
+            let tfile = "_LIST_POP_OS.shtml";
+            //alert('load!!');
+            $("#article_body").load(tfile);
+        });
+    </script>
+    
+    </div>
+  </body>
+
+</html>
