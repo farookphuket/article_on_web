@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="#">Farook's LBRS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            เพชรพระอุมา All in list
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link" href="../article/7_pet_pra_uma.html" target="_blank">
+                                ตอน ไพรมหากาฬ
+                            </a>
+
+                            <a class="nav-link" href="../article/9_pet_pra_uma2.html" target="_blank">
+                                ตอน ดงมรณะ
+                            </a>
+
+                            <a class="nav-link" href="../article/11_pet_pra_uma3.html" target="_blank">
+                                ตอน จอมผีดิบมันตรัย
+                            </a>
+                            <a class="nav-link" href="../article/12_pet_pra_uma4.html" target="_blank">
+                                ตอน อาถรรณ์นิทรานคร
+                            </a>
+                            <a class="nav-link" href="../article/15_pet_pra_uma5.html" target="_blank">
+                                ตอน ป่าโลกล้านปี
+                            </a>
+                            <a class="nav-link" href="../article/16_pet_pra_uma6.html" target="_blank">
+                                ตอน แงซายจอมจักรา
+                            </a>
+                            <a class="nav-link" href="../article/17_pet_pra_uma7.html" target="_blank">
+                                ตอน จอมพราน
+                            </a>
+
+                            <a class="nav-link" href="../article/18_pet_pra_uma8.html" target="_blank">
+                                ตอน ไอ้งาดำ
+                            </a>
+                            <a class="nav-link" href="../article/19_pet_pra_uma9.html" target="_blank">
+                                ตอน จิตรางคนางค์
+                        </a>
+                            <a class="nav-link" href="../article/20_pet_pra_uma10.html" target="_blank">
+                                ตอน นาคเทวี
+                            </a>
+                            <a class="nav-link" href="../article/21_pet_pra_uma11.html" target="_blank">
+                                ตอน แต่ปางบรรพ์
+                            </a>
+                            <a class="nav-link" href="../article/22_pet_pra_uma12.html" target="_blank">
+                                ตอน มงกุฎไพร
+                            </a>
+                        </div>
+
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../article/learn_git_command_link.html">Learn GIT</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Learn Laravel
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item nav-link" href="article/learn_laravel_link.html">Login multi roles</a>
+
+
+                            <a class="nav-link" href="article/learn_laravel_link.html">link 2</a>
+                            <a class="nav-link" href="article/learn_laravel_link.html">link 2</a>
+                            <a class="nav-link" href="article/learn_laravel_link.html">link 2</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../article/vmWare_problem_solved.html">VMWare Link</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="../article/25_howto_in_debian10.shtml">Debian 10</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="../article/25_howto_in_debian10.shtml">POP OS 20.04</a>
+                    </li>
+
+
+                </ul>
+
+
+
+
+            </div>
+        </nav>
