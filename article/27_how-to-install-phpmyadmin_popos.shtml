@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>how do I install phpmyadmin on Pop!_OS 20.04 </title>
+    <meta charset="utf-8" />
+    <!-- Copy this to use in every document-->
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/custom_theme.css">
+    <script type="text/javascript" src="../js/_CUSTOM_JS.js"></script>
+
+    <script type="text/javascript">
+        $.ajaxSetup({cache:false});
+        $(function(){
+            kicker('.lnBack','26_howto_in_popos20-04.shtml');
+            kicker('.lnHome',null);
+        });
+    </script>
+
+
+    
+
+  </head>
+
+  <body>
+    <!-- add "back home button" on 11 Oct 2020 -->
+    <div class="float-right btn-group">
+      <button class="btn btn-warning lnHome">Back Home</button>
+      <button class="btn btn-primary lnBack">Back to Pop!_OS main page</button>
+    </div>
+
+    <!--summary start-->
+    <section id="article_summary">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <img src="https://i.ibb.co/KmsDfQ8/php-Myadmin.png" class="responsive">
+            <p>How do I install phpmyadmin in Pop!_OS</p>
+          </div>
+
+
+
+          <div class="col-md-8">
+            <h1 class="text-center">
+                How do I install phpmyadmin in Pop!_OS
+            </h1>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BODY START -->
+    <section id="article_body">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h1 class="text-center">PoP_OS 20.04</h1>
+                    <p>
+                    Last update 6 Oct 2020 
+                    </p>
+                    <ol class="list-group">
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            Install Apache
+                            </h3>
+                            <p>
+                            you may need to update your system first the command below will update and install apache2.
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt update && sudo apt install apache2 -y</textarea>
+
+                            </div>
+
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+
+                            </h3>
+                            <p class="pt-4 mb-4">
+                           Next, assuming that you have followed the initial server setup instructions by installing and enabling the UFW firewall, make sure that your firewall allows HTTP and HTTPS traffic. but if you don't have one now let run this command
+                            </p>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt install ufw -y</textarea>
+
+                            </div>
+                            <p class="pt-4 mb-4">
+                            Allow incoming HTTP and HTTPS traffic for this profile:
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo ufw allow in "Apache Full"</textarea>
+
+                            </div>
+
+                            <p class="pt-4 mb-4">
+                            You can do a spot check right away to verify that everything went as planned by visiting your server’s public IP address in your web browser for now it might be say "unable to connect" it is because the apache2 server is not running yet the command below will check the status of apache web server,start the service and enable the apache service to run automatically on the system boot-up. put it into your terminal one by one in a time.
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4">sudo systemctl status apache2
+sudo systemctl start apache2
+sudo systemctl enable apache2
+</textarea>
+
+                            </div>
+                            <p class="pt-4mb-4 text-center">
+                            now when you type "127.0.0.1" in you web browser and hit enter it will show the apache index page 
+                            </p>
+                            <p class="pt-4 mb-4">
+                            Install mariadb
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo apt install mariadb-server </textarea>
+
+                            </div>
+                            <p class="pt-4 mb-4">
+                            after you have install let check if the service is run? "sudo systemctl status mysql" if it not load yet you have to enable it too "sudo systemctl start mysql"
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4">sudo systemctl start mysql
+sudo systemctl status mysql</textarea>
+
+                            </div>
+                            <p class="pt-4 mb-4">now you can go next page</p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo mysql_secure_installation</textarea>
+
+                            </div>
+                           <p>
+just replace '1234' to your password. 
+                           </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7">sudo mysql
+showdatabases;
+use mysql;
+ALTER USER 'root'@'localhost' IDENTIFIED BY '1234'; 
+FLUSH PRIVILEGES;
+quit;
+</textarea>
+
+                            </div>
+                            <p>
+                            now let try to login with root
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">mysql -u root -p</textarea>
+
+                            </div>
+                            <p>
+                            now you can access mysql let go to the next step.
+                            </p>
+                            <p>
+                            we have to the picture here
+                            </p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            Step 3 — Installing PHP
+                            </h3>
+                            <p>
+                            PHP is the component of your setup that will process code to display dynamic content. It can run scripts, connect to your MariaDB databases to get information, and hand the processed content over to your web server to display.
+
+                            </p>
+                            <p>
+Once again, leverage the apt system to install PHP. In addition, include some helper packages which will ensure that PHP code can run under the Apache server and talk to your MariaDB database:
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="6">
+
+sudo apt install php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
+</textarea>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                                enabling the FPM service
+                            </h3>
+                            <p>
+                           there will show the NOTICE: "Not enabling PHP 7.4 FPM by default" to enable it just copy the code below one line in a time.   
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="6">sudo a2enmod proxy_fcgi setenvif 
+sudo a2enconf php7.4-fpm
+</textarea>
+
+                            </div>
+
+                            <p class="pt-2 mb-2">next let download phpmyadmin</p>
+                        </li>
+
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            Download phpmyadmin from the website
+                            </h3>
+                            <p>
+                                You can download phpMyAdmin from the official website of <a href="https://www.phpmyadmin.net/downloads/"  target="_blank">phpMyAdmin</a>. Once the page loads, click on the Download button as marked in the screenshot below.
+                            </p>
+                            <a href="https://ibb.co/Ct5J7Wx"><img src="https://i.ibb.co/dc0b27n/download-phpmyadmin.png" alt="download-phpmyadmin" border="0" class="responsive"></a>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            unzip file to /opt
+                            </h3>
+
+                            <p>
+                            go to the download dir (in my case is ~/Downloads) unzip the file to /opt
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">cd ~/Downloads
+sudo unzip phpMyAdmin-VERSION_NUMBER-all-languages.zip  -d  /opt</textarea>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">Rename the folder </h3>
+                           <p>rename the folder to "phpmyadmin" by the command</p>
+                           <p class="alert alert-warning">
+                            <strong style="color:red;font-weight:bold;">
+                            NOTICE:
+                            </strong>
+                           if you name your "phpmyadmin" folder in something else make sure that you put your correct name into your command otherwise this might throw an Error  
+                           </p>
+                           
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo mv -v /opt/phpMyAdmin-VERSION_NUMBER-all-languages /opt/phpmyadmin</textarea>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">Give permission</h3>
+                           <p>give the folder permission for "www-data" to access.</p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo chown -Rfv www-data:www-data /opt/phpmyadmin</textarea>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">Configuring Apache for phpMyAdmin:</h3>
+                           <p>create new virtualhost file for phpmyadmin </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo vim /etc/apache2/sites-available/phpmyadmin.conf</textarea>
+
+                            </div>
+
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            put the code below in your phpmyadmin.conf file
+                            </h3>
+                            <p>
+                                press the letter "i" for the insert mode then press "<Control><Shift><v>" button to paste the below code into the file then save file by press ":wq"(write and quit)
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="13" name=""><VirtualHost *:9000>
+ServerAdmin webmaster@localhost
+DocumentRoot /opt/phpmyadmin
+
+<Directory /opt/phpmyadmin>
+Options Indexes FollowSymLinks
+AllowOverride none
+Require all granted
+</Directory>
+ErrorLog ${APACHE_LOG_DIR}/error_phpmyadmin.log
+CustomLog ${APACHE_LOG_DIR}/access_phpmyadmin.log combined
+</VirtualHost>
+</textarea>
+                            </div>
+                            <img src="https://i.ibb.co/xLYFBjP/create-phpmyadmin-vhost.png" alt="" class="responsive">
+
+<p class="pt-2">
+Now, you have to tell Apache web server to listen to the port 9000.
+
+To do that, edit the /etc/apache2/ports.conf configuration file with the following command add the line Listen 9000 under Listen 80
+</p>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo vim /etc/apache2/ports.conf</textarea>
+                            </div>
+                            <img src="https://i.ibb.co/kXtHp11/edit-port.png" alt="" class="responsive">
+                            <p class="pt-4 mb-4">
+                            Now, enable the phpMyAdmin site that we’ve just configured with the following command:
+                            </p>
+
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo a2ensite phpmyadmin.conf</textarea>
+                            </div>
+
+                            <p class="pt-4 mb-4">
+                                edit your /etc/hosts file.
+                            </p>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo vim /etc/hosts</textarea>
+                            </div>
+                            <img src="https://i.ibb.co/M7KMsb3/edit-hosts-file.png" alt="" class="responsive">
+
+
+                            <p class="pt-4 mb-4">
+                           so you don't have to type "localhost" instead you just type "phpmyadmin:9000" in your browser then you will get the phpmyadmin login page. okay now, restart Apache web server with the following command:
+                            </p>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo systemctl restart apache2</textarea>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                               well, let's try out now
+                            </h3>
+                            <p>
+                            now type "phpmyadmin:9000" you should see the login page
+                            </p>
+                            <img src="https://i.ibb.co/2Sd9K74/login-page-phpmyadmin.png" alt="" class="responsive">
+
+
+
+                            <div class="form-group">
+                                <textarea class="form-control" name=""></textarea>
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+
+                            <h3 class="text-center">
+                            login with your mysql account
+                            </h3>
+                            <p class="pt-4 mb-4">
+                            in my case here my account is "root" my password
+                            is "1234" open up you will see warning like this
+                            yeah , that's seem to be somthing hosekeeper to do for us
+                            let fix the first warning.
+                            </p>
+                            <img src="https://i.ibb.co/cw4K4xn/config-inc.png" alt="" class="responsive">
+                            <p class="pt-4 mb-4">
+                            to fix the first warning click on the link "find out why"
+                            </p>
+                            <img src="https://i.ibb.co/MVbKJ81/pmadb-conf.png" alt="" class="responsive">
+                            <p class="pt-4 mb-4">
+                            now click on the "Create" link will fig the first problem
+                            </p>
+                            <img src="https://i.ibb.co/q9wzKcN/fig-1.png" alt="" class="responsive">
+                            <p>&nbsp;</p>
+                            <img src="https://i.ibb.co/cw4K4xn/config-inc.png" alt="" class="responsive">
+                            <p class="pt-4 mb-4">now what left for us is just to go  fix the problem number 2 see! the above picture when we first login to our phpmyadmin then we have the red flag at the bottom of the page </p>
+                            <p class="mb-4">
+                            to fix the second problem is quite easy open file "/op/phpMyadmin/config.sample.inc.php" make sure if you have "$cfg['blowfish_secret'] = '^55443954kjfkdjfdncidfvjvfjvkdjfjdkfjdkjfdkfjdkjvcd&&664543948938uhdjndnfdjfkdjf%%$#';" you put some thing like this in it if you have it so just copy the code below paste it in your terminal then run it now your second problem will be solved!
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" name="">sudo cp /opt/phpMyadmin/config.sample.inc.php /opt/phpMyadmin/config.inc.php</textarea>
+                            </div>
+                            <img src="https://i.ibb.co/wcsQjb5/cp-config-inc.png" alt="" class="responsive">
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- add "back home button" on 11 Oct 2020 -->
+    <div class="float-right btn-group">
+      <button class="btn btn-warning lnHome">Back Home</button>
+      <button class="btn btn-primary lnBack">Back to Pop!_OS main page</button>
+    </div>
+
+  </body>
+
+</html>

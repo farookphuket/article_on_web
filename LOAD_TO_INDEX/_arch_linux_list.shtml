@@ -1,0 +1,35 @@
+
+<!--summary start-->
+      <section class="article_summary">
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4">
+
+
+<a href="https://syd.mirror.rackspace.com/archlinux/iso/2020.10.01/archlinux-2020.10.01-x86_64.iso" target="_blank"><img src="../img/Archlinux-vert-dark.svg.png" class="responsive" alt="PoP!_OS" border="0"></a>
+               <p class="text-center">Arch Linux</p>
+              
+              </div>
+              <div class="col-lg-8">
+
+                  <h1 class="text-center">How to Arch</h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 16 Oct 2020
+                    </p>
+
+                    <p>
+                        Just start learn to install Arch Linux on 16 Oct 2020 from youtube "Mental Outlaw" to install arch "DT" to install and use "DWM" 
+                    
+
+                    </p>
+                    <p>to download the "arch iso image file " click the picture</p>
+                    <div class="btn-group mr-2 float-right">
+                    
+                        <a href="article/29_howto_arch-linux.shtml" class="btn btn-primary" >ReadMore</a>
+                    </div>
+
+              </div>
+          </div>
+        </div>
+      </section>

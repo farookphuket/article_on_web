@@ -1,0 +1,66 @@
+
+<!--summary start-->
+      <section class="article_summary">
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4">
+
+
+<img src="../img/sat_17-oct-2020_oh-my-z-update.png" class="responsive" alt="PoP!_OS" border="0">
+               <p class="text-center">OH-MY-Z throw error on update 17 Oct 2020</p>
+              
+              </div>
+              <div class="col-lg-8">
+
+                  <h1 class="text-center">Got Error while try to update oh-my-z</h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 17 Oct 2020
+                    </p>
+                    <p class="pt-4 mb4">
+                        Date 17 Oct 2020 my belove computer is COMPLETELY DIE 
+                        after never make it a work for 2 months.<br />
+                        within this computer I won't be able to create video 
+                        while I'm using the virtualbox fuck it!
+                    </p>
+                    <p class="pt-4 mb-4">
+                        this morning the pop-up from oh-my-ze said "Fatal Error : while try upate oh-my-ze" so I went to the solution from <a href="https://github.com/ohmyzsh/ohmyzsh/issues/9004" target="_blank">https://github.com/ohmyzsh/ohmyzsh/issues/9004</a> and install some (maybe)missing libraries. 
+                    </p>
+
+                    <textarea class="form-control" >sudo apt-get -y install build-essential nghttp2 libnghttp2-dev libssl-dev</textarea>
+              </div>
+          </div>
+        </div>
+      </section>
+
+<!--summary start-->
+      <section class="article_summary">
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4">
+
+
+<img src="../img/ranger_pop_os.png" class="responsive" alt="ranger is cool" border="0">
+               <p class="text-center">how to config ranger in POP!_OS</p>
+              
+              </div>
+              <div class="col-lg-8">
+
+                  <h1 class="text-center">How to config ranger on Pop!_OS</h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 17 Oct 2020
+                    </p>
+
+                    <h2 class="text-center">this file came from _INDEX_PAGELIST.shtml</h2>
+                    <p>this is how do I config "Ranger" preview image by install ueberzug</p>
+                    <div class="btn-group mr-2 float-right">
+                    
+                        <a href="../article/RANGER/ranger_index.shtml" class="btn btn-primary" >Read Local Post</a>
+                        <a href="https://memotut.com/the-combination-of-cli-image-viewer-%C3%BCberzug-and-ranger-is-very-convenient-d7fd3/" class="btn btn-primary" >Read Original Post</a>
+                    </div>
+
+              </div>
+          </div>
+        </div>
+      </section>

@@ -1,0 +1,55 @@
+
+    <section id="article_body">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+
+                    <h1 class="text-center">
+                        Install composer 
+                    </h1>
+                    <p style="text-align:right;font-weight:bold;color:green;">Last update 11 Oct 2020</p>
+
+                    <ol class="list-group">
+                        <li class="list-group-item">
+
+
+                            <p class="mb-4">
+        to install composer on Manjaro 
+                            </p>
+                            <textarea class="form-control pt-4 mb-4">sudo pacman -S composer</textarea>
+                        </li>
+                        <li class="list-group-item">
+
+                            <p class="pt-4 mb-4">
+                                to install on Ubuntu Debian
+                            </p>
+                            <textarea class="form-control pt-4 mb-4">sudo apt install composer</textarea>
+                        </li>
+                        <li class="list-group-item">
+                            <p>
+                                you have to export $PATH for composer by adding the code below to your .bashrc or .profile file 
+                            </p>
+
+                            <textarea class="form-control pt-4 mb-4" rows="9">
+# Add Composer bin-dir to PATH if it is installed.
+    command -v composer >/dev/null 2>&1 && {
+    COMPOSER_BIN_DIR=$(composer global config bin-dir --absolute 2> /dev/null)
+    PATH="$PATH:$COMPOSER_BIN_DIR";
+}
+export PATH
+
+                                </textarea>
+                                <p class="mb-4 pt-4">
+now open-up your terminal type "composer" hit Enter you will see the picture below
+                                </p>
+                                <img src="../img/composer_show.png" alt="" class="responsive pt-4 mb-4">
+                        </li>
+                    </ol>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>

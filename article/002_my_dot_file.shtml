@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My dot file on Linux</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../favicon.ico?v=2" type="image/x-icon">
+    <!-- Copy this to use in every document-->
+    <!--Copy Out source Start -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/custom_theme.css">
+    <script type="text/javascript" src="../js/_CUSTOM_JS.js"></script>
+
+    <script type="text/javascript">
+        $.ajaxSetup({cache:false});
+        $(function(){
+            kicker('.lnBack',null);
+        });
+    </script>
+
+
+  </head>
+
+  <body>
+    <!-- add "back home button" on 26-Aug-2019 -->
+    <div class="float-right">
+      <button class="btn btn-primary lnBack">Back to Home</button>
+    </div>
+
+    <!--summary start-->
+    <section id="article_summary">
+      <div class="container">
+        <div class="row">
+
+
+
+
+          <div class="col-md-12">
+            <h1 class="text-center">My dot file on Linux</h1>
+
+            <p class="pt-2 mb-2">
+                This section we will take a look at "MY DOT FILE" that I use on Linux "Manjaro","Debian","Ubuntu","PoP_OS" on 11 Oct 2020
+            </p>
+          </div>
+
+          <div class="col-md-12">
+            <img src="../img/my_dot_file.png" class="responsive">
+            <p>my dot file that I use on my Linux box</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BODY START -->
+    <div id="body"></div>
+    <script type="text/javascript">
+        $(function(){
+            let bd = "_LIST_DOT_FILE.shtml";
+            $("#body").load(bd);
+        });
+    </script>
+    <!-- BODY END -->
+    <div class="float-right">
+      <button class="btn btn-primary lnBack">Back to Home</button>
+    </div>
+  </body>
+
+</html>

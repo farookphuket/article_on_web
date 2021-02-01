@@ -1,0 +1,30 @@
+<section class="article_summary">
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4">
+
+
+<a href="../article/002_my_dot_file.shtml"><img src="../img/my_dot_file.png" class="responsive" alt="my dot file I use on Linux" border="0"></a>
+               <p class="text-center">my dot file I use on Linux</p>
+              
+              </div>
+              <div class="col-lg-8">
+
+                  <h1 class="text-center">my dot ftile on Linux</h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 11 Oct 2020
+                    </p>
+
+                    <p>
+                        now we will take a look at the dot file that I use on my Linux on 11 Oct 2020.
+                    </p>
+                    <div class="btn-group float-right">
+                    
+                        <a href="../article/002_my_dot_file.shtml" class="btn btn-primary">Read More</a>
+                    </div>
+
+              </div>
+          </div>
+        </div>
+      </section>

@@ -1,0 +1,168 @@
+
+
+<div id="short_brief"></div>
+<script type="text/javascript">
+    $(function(){
+        let ranger = "../LOAD_TO_INDEX/_001short_briefly.shtml";
+        $('#short_brief').load(ranger);
+    });
+</script>
+
+
+<div id="arch_linux"></div>
+<script type="text/javascript">
+    $(function(){
+        let arch = "../LOAD_TO_INDEX/_arch_linux_list.shtml";
+        $('#arch_linux').load(arch);
+    });
+</script>
+
+<div id="my_dot_file"></div>
+<script type="text/javascript">
+    $(function(){
+        let dotfile = "../LOAD_TO_INDEX/_vim_index.shtml";
+        $('#my_dot_file').load(dotfile);
+    });
+</script>
+
+
+<div id="pop_section"></div>
+<script type="text/javascript">
+    $(function(){
+        $('#pop_section').load("../LOAD_TO_INDEX/_pop_os_index.shtml");
+    });
+</script>
+
+
+      <!-- DEBIAN START -->
+        <div id="composer_section"></div>
+        <script type="text/javascript">
+            $(function(){
+                let cmp = "LOAD_TO_INDEX/_composer_index.shtml";
+                $('#composer_section').load(cmp);
+            });
+        </script>
+      <!-- Composer Start -->
+        
+      <!-- Composer END -->
+
+<!--summary start-->
+      <section class="article_summary">
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4">
+
+
+<a href="https://ibb.co/V3Cxzhk" target="_blank"><img src="https://i.ibb.co/KmsDfQ8/php-Myadmin.png" class="responsive" alt="php-Myadmin" border="0"></a>
+               <p class="text-center">
+                from ทดสอบการติดตั้ง apache 
+               </p>
+              
+              </div>
+              <div class="col-lg-8">
+
+                  <h1 class="text-center">
+                    How do I install phpmyadmin on Debian 10
+                  </h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 28 Sep 2020
+                    </p>
+
+                    <h2 class="text-center">tried 2 from linuxhint work greate!</h2>
+                    <p>
+                        from :https://linuxhint.com/install_phpmyadmin_debian_10/
+
+                    </p>
+                    <div class="btn-group float-right">
+                    
+                        <a href="article/23_how-to-install-phpmyadmin.html" class="btn btn-primary">GET ME ON HERE</a>
+                        <a href="https://linuxhint.com/install_phpmyadmin_debian_10/" class="btn btn-primary" target="_blank">GET ME ORIGINAL</a>
+                    </div>
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- DEBIAN END -->
+
+      <!-- vmware section Start-->
+        <div id="linux_vmware"></div>
+        <script type="text/javascript">
+            $(function(){
+                let vmware = "LOAD_TO_INDEX/_vmware_section.shtml";
+            $('#linux_vmware').load(vmware);
+            });
+        </script>
+      <!-- vmware section End-->
+
+
+
+      <!-- linux_server Start-->
+        <div id="linux_server"></div>
+        <script type="text/javascript">
+            $(function(){
+                let ln_server = "LOAD_TO_INDEX/_server_config_list.shtml";
+            $('#linux_server').load(ln_server);
+            });
+        </script>
+      <!-- linux_server End-->
+
+      <!-- book เพชรพระอุมา ทั้งหมดมาโชว์ที่นี่ฮะ -->
+      <div id="book_petpra"></div>
+      <script type="text/javascript">
+          $(function(){
+              let book_petURL = "LOAD_TO_INDEX/_book_pet_pra_uma.shtml";
+              $("#book_petpra").load(book_petURL);
+
+          });
+      </script>
+      <!-- book เพชรพระอุมา ทั้งหมดมาโชว์ที่นี่ฮะ END -->
+
+      <!-- old content Start -->
+        <div id="old_content"></div>
+        <script type="text/javascript">
+            $(function(){
+                let old_contn = "LOAD_TO_INDEX/_old_content_list.shtml";
+                $("#old_content").load(old_contn);
+            });
+        </script>
+
+      <!-- old content End -->
+
+      <!-- sexy girl start -->
+       <div id="sexy_girl"></div>
+        <script type="text/javascript">
+            $(function(){
+                let fgirl = "LOAD_TO_INDEX/_pretty_sexy_girl.shtml";
+                $('#sexy_girl').load(fgirl);
+            });
+        </script>
+
+      <!-- sexy girl END -->
+
+      <!-- mod section START-->
+      <div id="mod"></div>
+      <script type="text/javascript">
+          $(function(){
+              let w_mod = "LOAD_TO_INDEX/_with_mod.shtml";
+              //$('#mod').load(w_mod);
+          });
+      </script>
+      <!-- mod section End-->
+
+
+
+
+      <!-- goodbye section Start-->
+        <div id="goodbye"></div>
+        <script type="text/javascript">
+            $(function(){
+                let bye = "LOAD_TO_INDEX/_goodbye_myjob.shtml";
+            $('#goodbye').load(bye);
+            });
+        </script>
+      <!-- goodbye section End-->

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to composer</title>
+    <meta charset="utf-8" />
+    <!--Copy Out source Start -->
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/popper.js"></script>
+    <link rel="stylesheet" href="../../js/bootstrap.min.css">
+    <script src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/_CUSTOM_JS.js"></script>
+
+    <!-- Copy Out source End -->
+    <link rel="stylesheet" href="../../css/custom_theme.css">
+
+    <script type="text/javascript">
+        window.addEventListener("load",function(){
+            kick(".lnBack","../29_howto_arch-linux.shtml");
+            kick(".lnHome",null);
+        });
+    </script>
+    
+
+  </head>
+
+  <body>
+    <!-- add "back home button" on 26-Aug-2019 -->
+    <div class="float-right">
+      <button class="btn btn-warning lnHome">Back home</button>
+      <button class="btn btn-primary lnBack">Back to Arch Main</button>
+    </div>
+
+    <!--summary start-->
+    <section id="article_summary">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+              <h1 class="text-center">How to</h1>
+            <img src="../../../img/install_arch/install_arch_linux_14-oct-2020.png" class="responsive">
+            <p class="pt-4">Install arch linux on Virtualbox this article I follow DT</p>
+
+              <img class="responsive pt-4" src="../../../img/install_arch/001_introl_follow_dt.png" alt="">
+            
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BODY START -->
+    <section id="article_body">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <p style="text-align:right;color:green;font-weight:bold;">
+                        last update 16 Oct 2020
+                    </p>
+                    <ol class="list-group">
+
+                        <li class="list-group-item">
+                            <h3 class="text-center">
+                            Download the Arch Linux 
+                            </h3>
+                            <p>
+                                go to download iso image file then boot it up in your vbox
+                            </p>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="6">cpu : 1 cpu
+Ram : 2 GB
+Hdd : 32 GB
+Network : NAT
+Display : VBoxVGA
+ISO Image file Download Page : https://syd.mirror.rackspace.com/archlinux/iso/2020.10.01/archlinux-2020.10.01-x86_64.iso</textarea>
+
+                            </div>
+
+                        </li>
+
+
+                        <li class="list-group-item">
+                            <h2 class="text-center">
+                                set up your new machine
+                            </h2>
+                           <p class="pt-4 mb-4">
+                            Note that I wrote this article by follow "DT" from youtube channel <a href="https://www.youtube.com/watch?v=PQgyW10xD8s" target="_blank">how to install arch linux on virtualbox</a>
+                           </p>
+                        <img class="responsive pt-4" src="../../../img/install_arch/006_summary.png" alt="">
+                       <p class="pt-4 mb-4">
+                        just to be clear I finally set the cpu to 1 cpu as my host machine is quite low spec to do this job so 1 cpu for me 
+                       </p>
+                       
+
+                        </li>
+
+                        <li class="list-group-item">
+                            <h2 class="text-center">internet test</h2>
+                            <p class="pt-2 mb-4">run the command "ping" to any website just to make sure that you have the internet connection</p>
+                            <textarea class="form-control" name="">ping farookphuket.com</textarea>
+                           <img class="responsive pt-4" src="../../../img/install_arch/install_arch_001_ping.png" alt="">
+                           
+                           
+                        </li>
+
+                        <li class="list-group-item">
+                            <h2 class="text-center">synce timedate system</h2>
+                            <p class="pt-2 mb-4">
+synce time date ntp with the command
+                            </p>
+                            <textarea class="form-control mb-4" name="">timedatectl set-ntp true</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_002_set_timedate.png" alt="">
+                            
+                        </li>
+
+
+
+                        <li class="list-group-item">
+                            <h2 class="text-center">check our time</h2>
+                            <p class="pt-2 mb-4">
+to check the time status now you can type 
+                            </p>
+                            <textarea class="form-control mb-4" name="">timedatectl status</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_002-1_check_timedate.png" alt="">
+
+                            <p class="pt-4 mb-4">
+you'll see that my time from the computer and guess (in this case) is not the same but don't worry we'll fix it later
+                            </p>
+                            
+                            
+                        </li>
+                        <li class="list-group-item">
+                            <h2 class="text-center">
+                            create partition table
+                            </h2>
+                            <p class="pt-2 mb-4">we going to create the partiton and format it now to list your device you can type lsblk or fdisk -l you will see the list of the disk in this case is just the "sda"</p>
+                            <textarea class="form-control pt-4 mb-4" name="">fdisk -l</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_003_fdisk.png" alt="">
+                            
+                            <textarea class="form-control pt-4 mb-4" name="">fdisk /dev/sda</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_004_fdisk_partition.png" alt="">
+
+                            <p class="pt-4 mb-4">
+                            we will create 3 different partition<br /> 
+                            partiton "1" efi with "550M"<br />
+                            partiton "2" swap with "2GB"<br /> 
+                              partiton "3" will be take the whole space  
+
+                            </p>
+                            <textarea class="form-control pt-4 mb-4" rows="8">type "g" hit enter
+type "n" hit enter
+type "1" hit enter
+the "first sector" we will leave as a default just hit enter 
+the "last sector" we will type "+550M" hit enter
+done with the efi partiton
+</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_006_fdisk_partition1.png" alt="">
+
+
+                            <p class="pt-4 mb-4">
+                            now we will make a swap partiton
+                            </p>
+                            <textarea class="form-control pt-4 mb-4" rows="8">type "n" hit enter
+type "2" hit enter 
+the "first sector" we will leave as a default just hit enter 
+the "last sector" we will type "+2G" hit enter
+done with the swap partiton
+</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_007_fdisk_partition2.png" alt="">
+
+                            <p class="pt-4 mb-4">
+                            the last partiton will be taking the remain of the space is where we will install the system in here
+                            </p>
+                            <textarea class="form-control pt-4 mb-4" rows="8">type "n" hit enter 
+type "3" hit enter
+the "first sector" we will leave as a default just hit enter 
+the "last sector" we will take the whole space now just hit enter
+done with the partitoning now 
+
+</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_008_fdisk_partition3.png" alt="">
+
+
+
+                            <p class="pt-4 mb-4">
+                            now we have to set the partiton type there will be 3 different type "efi" "swap" and "ext4" 
+                            </p>
+                            <textarea class="form-control pt-4 mb-4" rows="8">type "t" hit enter
+type "1" hit enter 
+type "1" hit enter (you can press "L" for the list of partiton type)
+</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_009_fdisk_p-type1.png" alt="">
+
+
+                            <p class="pt-4 mb-4">
+                            the partiton 2 will be a swap partiton 
+                            </p>
+
+                            <textarea class="form-control pt-4 mb-4" rows="8">type "t" hit enter
+type "2" hit enter 
+type "19" hit enter (you can press "L" for the list of partiton type)
+</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_010_fdisk_p-type2.png" alt="">
+
+                            <p class="pt-4 mb-4">
+                            the partiton 3 is look good for now we don't have to change it 
+                            now type "w" hit enter 
+                            </p>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_011_fdisk_savedisk.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                            <h2 class="text-center">format disk</h2>
+                            <p class="pt-2 mb-4">
+                            format disk using mkfs command
+                            </p>
+                            <textarea class="form-control mb-4" rows="9">mkfs.fat -F32 /dev/sda1 "ufi partion"
+mkswap /dev/sda2 "swap partion"
+swapon /dev/sda2 "turn swap on"
+mkfs.ext4 /dev/sda3
+                            </textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_015_formatdisk3.png" alt="">
+                            
+                        </li>
+
+
+
+
+
+
+
+                        <li class="list-group-item">
+                            <h2 class="text-center">Download package for the installation</h2>
+                            <p class="pt-2 mb-4">
+                            - run pacstrap to install system to /mnt 
+                            </p>
+                            <textarea class="form-control mb-4" name="">pacstrap /mnt base base-devel linux linux-firmware vim git wget curl networkmanager</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_017_pacstrap.png" alt="">
+                           <p class="pt-4 mb-4">there will be require space on the disk for 1600 MB (it is depends on how many package you download on this time )</p>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_018_pacstrap1.png" alt="">
+                            <p class="pt-4 mb-4">All you have to do now just wait until you you can see the below message(in the picture appear) </p>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_019_pacstrap2done.png" alt="">
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <h2 class="text-center">arch-chroot</h2>
+                            <p class="pt-2 mb-4">I think I must have at leat 1 picture missing or two here but actually you have to run genfstab and arch-chroot /mnt command here</p>
+
+                            <textarea class="form-control mb-4" rows="4">genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/" alt="">
+                            
+                        </li>
+                        <li class="list-group-item">
+                            <h2 class="text-center">set locale</h2>
+                            <p class="pt-2 mb-4">locale is actually there in /usr/share so we just have to link to it after the "/zoneinfo/" if you type the first letter of your zone it will show the list of zone you maybe on for example type "A" hit tab will show "America" ,"Asia" and so on after the zone will be the city you can do the same thing as well </p>
+                            <textarea class="form-control" name="">ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime</textarea>
+                           
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_021_ln-localtime.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                            <h2 class="text-center">set the system clock</h2>
+                            <p class="pt-2 mb-4">as you know that our guess machine time was
+                            not meet our host machine time at the first place so now we going to fix them </p>
+                            <textarea class="form-control pt-4 mb-4" name="">hwclock --systohc hit enter</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_022_hwclock.png" alt="">
+
+                            <p class="pt-4 mb-4">we have to edit the locale.gen file 
+                            for the language (I will use english as it is by now 
+                            I cannot use "Thai" ) I will use vim to do this (if you remember we have install vim while we do a pacstrap command) </p>
+
+                            <textarea class="form-control pt-4 mb-4" name="">vim /etc/locale.gen</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_023_edit-locale.png" alt="">
+
+                          <p class="pt-4 mb-4">
+                            I found out that vim is a lot more easy to edit the file
+                            (if you know how ) I can simply do this. 
+                          </p>
+
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_024_enable_en.png" alt="">
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_025_enable_th.png" alt="">
+
+
+                          <p class="pt-4 mb-4">
+                          when we done edit this file now we have to save the file 
+                          press Esc follow by ":wq" hit enter to save and quit 
+                          </p>
+                          <p class="pt-4 mb-4">
+                          now type "locale-gen" to generate the language that we just enable
+                          </p>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_026_locale-gen.png" alt="">
+
+                            <p class="pt-4 mb-4">
+                            we going to create new conf file to meet with our locale language
+                            (we will use english for now) this file is actully not exit yet
+                            so run vim command to create and edit the file
+                            </p>
+
+                            <textarea class="form-control pt-4 mb-4" name="">vim /etc/locale.conf</textarea>
+
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_027_create-locale-conf.png" alt="">
+                            <p class="pt-4 mb-4">
+                            press "i" and put "LANG=en_US.UTF-8" press Esc 
+                            follow by ":wq" hit enter to save and quit 
+
+                            </p>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_028_locale-conf-content.png" alt="">
+
+                        </li>
+                        <li class="list-group-item">
+                            <h2 class="text-center">create hostname</h2>
+                            <p class="pt-2 mb-4">hostname is our computer name 
+                            just create the "hostname" file by type in "vim /etc/hostname"
+                            then put the name of your computer in this case 
+                            I name it "archdt3" and you gotta remember it  
+                            </p>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_029_create_hostname.png" alt="">
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_030_put_hostname.png" alt="">
+                           
+                        </li>
+                        <li class="list-group-item">
+                            <h2 class="text-center">edit the hosts file</h2>
+                            <p class="pt-2 mb-4">now edit the host file by type "vim /etc/hosts" the below will be my content you simply change just your computer name</p>
+                            <textarea class="form-control pt-4 mb-4" rows="6">--
+127.0.0.1       localhost
+::1             localhost 
+127.0.1.1       archdt3.localdomain     archdt3
+--replace "archdt3" to your computer name</textarea>
+
+                            <p class="pt-4 mb-4">
+                            when we run "cat /etc/hostname" it will show the host name then we run "cat /etc/hosts" will show the detail from the hosts file
+
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_034_cat-for-check.png" alt="">
+                            </p>
+                           
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">root password</h2>
+                          <p class="pt-4 mb-4">create root password (create your root password in my case here I will use 1234 as this is my test virtualbox machine I will not use a simple password in my real life)and add new user account I will add my name as a user name</p>
+
+                          <textarea class="form-control pt-4 mb-4" rows="6">passwd 
+"type your password hit enter"
+"repeate your password again hit enter" </textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_035_set-root-passwd.png" alt="">
+                            <p class="pt-4 mb-4">add new user name "farook" will be in the group "wheel" then give him a password "1234"</p>
+                            <textarea class="form-control pt-4 mb-4" rows="6">useradd -mg wheel farook
+passwd farook "hit enter"
+"type" 1234 "hit enter"
+"type" 1234 "again hit enter"
+                            </textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_036_create-user.png" alt="">
+                            <p class="pt-4 mb-4">
+                              now that we add new user name "farook" and add him  to "wheel" group but we have to add more group for him here is how.
+                            </p>
+                            <textarea class="form-control pt-4 mb-4" rows="8">usermod -aG audio,video,storage,optical farook "hit enter"
+groups farook "hit enter"
+
+</textarea>
+            
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_037_user-group.png" alt="">
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <h2 class="text-center">edit sudoers</h2>
+                          <p class="pt-4 mb-4">we have to edit /etc/sudoers file to enable "wheel" group from this file</p>
+
+                          
+                            <textarea class="form-control pt-4 mb-4" rows="8">vim /etc/sudoers</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_038_edit-sudoers.png" alt="">
+                            <p class="pt-4 mb-4">
+                            you'll see that I uncomment the line "%wheel ALL = (ALL) ALL" then add the line "Defaults !tty_tickets" in the file too when done with the edit press "Esc:wq!" hit enter
+                            </p>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_039_edit-sudoers2.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">install grub tools</h2>
+                          <p class="pt-4 mb-4">actually you can run the install command in one line to install grub and efi tools the result will be no different.</p>
+                            <textarea class="form-control pt-4 mb-4" name="">pacman -S grub efibootmgr dosfstools os-prober mtools --noconfirm</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_040_install-grub.png" alt="">
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_041_install-efi.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">create efi folder</h2>
+                          <p class="pt-4 mb-4">type "mkdir /boot/EFI" then mount the partiton 1 to /boot/EFI</p>
+
+                            <textarea class="form-control pt-4 mb-4" rows="6">mkdir  /boot/EFI
+mount  /dev/sda1  /boot/EFI 
+</textarea>
+
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_042_mkdir-efi.png" alt="">
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_043_mount-efi.png" alt="">
+
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">run grub-install</h2>
+                          <p class="pt-4 mb-4"></p>
+
+                            <textarea class="form-control pt-4 mb-4" name="">grub-install   --target=x86_64-efi  --bootloader-id=grub_uefi  --recheck</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_044_run_grub-install.png" alt="">
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <h2 class="text-center">generate grub config</h2>
+                          <p class="pt-4 mb-4"></p>
+
+                            <textarea class="form-control pt-4 mb-4" name="">grub-mkconfig  -o  /boot/grub/grub.cfg</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_045_gen_grub-conf.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">enable Network Manager service</h2>
+                          <p class="pt-4 mb-4">before I forget we have to enable the "Network Manager" service to run after we reboot other wise we'll have such  a hard time to connect to the internet.</p>
+
+                            <textarea class="form-control pt-4 mb-4" name="">systemctl enable NetworkManager</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_047_enable_networkmanager.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">unmount and shutdown</h2>
+                          <p class="pt-4 mb-4">our "Arch Linux Installation" is now completely done what next here? we will exit out of chroot - unmount /mnt - shutdown I can not type reboot because it will boot back to the iso image so I have to reject it first</p>
+
+                            <textarea class="form-control pt-4 mb-4" rows="6">exit
+unmount -R /mnt 
+shutdown now
+</textarea>
+                          
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_048_exit_unmount_shutdown.png" alt="">
+                        </li>
+
+                        <li class="list-group-item">
+                          <h2 class="text-center">eject the ixso image disk</h2>
+                          <p class="pt-4 mb-4">now eject the disk the press "Start" button then login with our account that we just create "farook"</p>
+
+                          
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_049_remove-disk.png" alt="">
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_050_login.png" alt="">
+                        </li>
+
+                        <li class="list-group-item">
+                          <h2 class="text-center">install app</h2>
+                          <p class="pt-4 mb-4">install neofetch app</p>
+
+                          <textarea class="form-control pt-4 mb-4" name="">sudo pacman -S neofetch --noconfirm</textarea>
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_051_install-app.png" alt="">
+                        </li>
+                        <li class="list-group-item">
+                          <h2 class="text-center">Done!</h2>
+                          <p class="pt-4 mb-4">now type "neofetch" then capture the screen shot then show this to your friend.</p>
+
+                          
+                            <img class="responsive pt-4 mb-4" src="../../../img/install_arch/install_arch_052_success.png" alt="">
+
+                          <p class="pt-4 mb-4">All thanks to "DT" and "Mental Outlaw".</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  </body>
+
+</html>

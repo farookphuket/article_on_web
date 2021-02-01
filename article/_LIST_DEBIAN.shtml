@@ -1,0 +1,68 @@
+    <div class="row">
+
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                Lamp Server in Debian 10
+            </h2>
+            <p style="text-align:right;color:green;font-weight:bold;">
+               last edit 2 Oct 2020
+            </p>
+            <img class="responsive" src="https://www.blognone.com/sites/default/files/externals/d9f0b11430eb6b473cc609bedb803237.png" alt="">
+            
+            <p>
+                To start develop the web application we have to setup our "Server environment" first there is not too difficult step to walk through
+            </p>
+            
+            <div class="btn-group float-right">
+                <a href="" class="btn btn-primary">click me</a>
+            </div>
+
+        </div>
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                how to install phpmyadmin
+            </h2>
+            <p style="text-align:right;color:green;font-weight:bold;">
+               last edit 2 Oc 2020
+            </p>
+            <img class="responsive" src="https://i.ibb.co/2Sd9K74/login-page-phpmyadmin.png" alt="phpmyadmin">
+            
+            <p class="mb-2 mt-2">this is the content for the title</p>
+            <div class="btn-group float-right">
+                <a href="23_how-to-install-phpmyadmin.html" class="btn btn-primary">Read More</a>
+            </div>
+
+
+
+        </div>
+
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                how to
+            </h2>
+
+            <p style="text-align:right;color:green;font-weight:bold;">
+               last edit 2 Oct 2020
+            </p>
+<p>
+In this example we will walk through the step of "how to install guest additions for Debian 10 server xfce"
+</p>
+            <div class="btn-group float-right">
+                <button class="btn btn-primary">Read More</button>
+            </div>
+
+        </div>
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                how to 4
+            </h2>
+
+            <p style="text-align:right;color:green;font-weight:bold;">
+               last edit 2 Oct 2020
+            </p>
+
+        </div>
+
+
+
+</div>

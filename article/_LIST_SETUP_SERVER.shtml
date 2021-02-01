@@ -1,0 +1,33 @@
+<!--setup Pop! OS Web Server start-->
+      <section class="article_summary">
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4">
+
+
+<a href="" target="_blank"><img src="https://www.ubuntufree.com/wp-content/uploads/2020/05/pop-OS-laptop-info-1024x576.png" class="responsive" alt="PoP!_OS" border="0"></a>
+               <p class="text-center">How to setup Pop!_OS Web Server</p>
+              
+              </div>
+              <div class="col-lg-8">
+
+                  <h1 class="text-center">How to setup web server on Pop!_OS</h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 6 Oct 2020
+                    </p>
+
+                    <p>
+                        Just start using Pop!_OS on 4 Oct 2020 with my desktop computer as known that manjaro is not support with this hardware and also Debian cannot use with this system too! WHAT THE FUCK! so it is seem like "There is not so many option for me at all unless to go back to Ubuntu which is I DO NOT prefer for that as it is for some of the application is not stable" so that's why I choose POP!_OS 20.04 
+                    </p>
+                    <div class="btn-group float-right">
+                    
+                        <a href="../article/27_how-to-install-phpmyadmin_popos.shtml" class="btn btn-primary" >ReadMore</a>
+                    </div>
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+<!--setup Pop! OS Web Server END -->

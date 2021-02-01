@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How do I setup web server</title>
+    <meta charset="utf-8" />
+    <!-- Copy this to use in every document-->
+    <link rel="icon" href="../favicon.ico?v=2" type="image/x-icon">
+    <!-- Copy this to use in every document-->
+    <!--Copy Out source Start -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <link rel="stylesheet" href="../js/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/custom_theme.css">
+    <script type="text/javascript" src="../js/_CUSTOM_JS.js"></script>
+
+
+
+    <script type="text/javascript">
+        $(function(){
+            $.ajaxSetup({ cache: false });
+
+            kicker(".lnBack",null);
+            let subMenu = "../INC/_SUB_NAV.shtml";
+            $("#nav").load(subMenu);
+        });
+    </script>
+
+
+
+  </head>
+
+  <body>
+
+    <div id="nav"></div>
+    <!-- add "back home button" on 26-Aug-2019 -->
+
+    <!--summary start-->
+    <section id="article_summary">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <img src="https://www.ostechnix.com/wp-content/uploads/2019/02/lamp-720x340.jpg" class="responsive">
+            <p class="text-center">
+              <a style="font-weight:bold;color:white;" href="https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/" target="_blank" class="btn btn-primary btn-xs">Click to read the original post</a>
+            </p>
+          </div>
+          <div class="col-md-8">
+            <p>In this section we will focus on how to setup web server on the various Linux system "Ubuntu","Debian","Manjaro","Pop!_OS"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Summary -->
+
+  <!-- BODY START -->
+<div id="call_list"></div>
+<script type="text/javascript">
+    $(function(){
+
+        $.ajaxSetup({ cache: false });
+        let callListUrl = "_LIST_SETUP_SERVER.shtml";
+        $("#call_list").load(callListUrl);
+
+    });
+</script>
+  <!-- END BODY -->
+
+
+
+    <div class="float-right">
+      <button class="btn btn-primary lnBack">Back to Home</button>
+    </div>
+  </body>
+
+</html>

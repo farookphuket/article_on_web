@@ -1,0 +1,88 @@
+
+<!--summary start-->
+<div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1 class="text-center">
+                    Sexy girl rock!
+                  </h1>
+                    <p style="font-weight:bold;text-align:right;color:green;">
+                        Last update 20 Sep 2020
+                    </p>
+                    <p>
+                        the list of picture is ofcause it is came from the internet but this file that store the list of picture has call by ajax from "LOAD_TO_INDEX" folder this file name is "_pretty_sexy_girl.shtml". 
+                    </p>
+              </div>
+
+              <div class="col-lg-8">
+                  <div class="img_row">
+                      <div class="column">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMxblQPirXNlE6q7L12U3Z-C0SJqZH9ganVOBs39U9Wg&usqp=CAU&ec=45702844" class="img_show responsive">
+                      </div>
+
+                      <div class="column">
+                        <img src="https://pbs.twimg.com/profile_images/889369871951122432/_QmrInAN_400x400.jpg" class="img_show responsive">
+                      </div>
+
+                      <div class="column">
+                        <img src="https://pbs.twimg.com/profile_images/987870986048487424/cCugK2qO.jpg" class="img_show responsive">
+                      </div>
+                      <div class="column">
+                        <img src="https://sc01.alicdn.com/kf/HTB1aFBsQVXXXXa.XVXXq6xXFXXXq/200321938/HTB1aFBsQVXXXXa.XVXXq6xXFXXXq.jpg_.webp" class="img_show responsive">
+                      </div>
+                      <div class="column">
+                        <img src="https://i.pinimg.com/736x/3c/f2/47/3cf2478b3f28cb04cbdad387e3f0083a.jpg" class="img_show responsive">
+                      </div>
+
+                      <div class="column">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/713Efs1968L.jpg" class="img_show responsive">
+                      </div>
+                      <div class="column">
+                        <img src="https://i.pinimg.com/originals/aa/41/09/aa4109f4a36d2e2e8ad42705b368ed8d.webp" class="img_show responsive">
+                      </div>
+                      <div class="column">
+                        <img src="https://i.pinimg.com/originals/13/68/9d/13689d10cb8a619dcee1a7c5725aa9ed.jpg" class="img_show responsive">
+                      </div>
+
+                      <div class="column">
+                        <img src="https://i.pinimg.com/originals/63/c2/30/63c2300b6a9fac743e09de5cabc4b99b.jpg" class="img_show responsive">
+                      </div>
+                      <div class="column">
+                        <img src="https://i.pinimg.com/736x/2f/65/4c/2f654c969a0bbb9b4c729ef7419aeb13.jpg" class="img_show responsive">
+                      </div>
+
+                      <div class="column">
+                        <img src="https://ae01.alicdn.com/kf/HTB1d.urbzvuK1Rjy0Faq6x2aVXay/Hot-Sexy-Girl-Photo-SILK-POSTER-Decorative-Wall-painting-24x36inch.jpg" class="img_show responsive">
+                      </div>
+
+                      <div class="column">
+                        <img src="https://globeso.com/upload/photos/2019/07/9qXn2D4tUFzQRzG1a7s2_15_74c244b4a5740a6ef49df5e0626e24e6_image_small.jpeg" class="img_show responsive">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+              <!-- Show big image -->
+                  <div class="img_container">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                      <img id="expandedImg" class="img_show responsive">
+                      <div id="imgtext"></div>
+                  </div>
+              </div>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+
+$(".img_show").on("click",function(){
+    myFunction(this);
+});
+</script>
+
+              <!-- Show big image END -->
+          </div>
+          </div>
+      <!-- End Of Summary -->

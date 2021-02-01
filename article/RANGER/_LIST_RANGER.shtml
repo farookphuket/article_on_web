@@ -1,0 +1,95 @@
+    <div class="row">
+
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                how to 
+            </h2>
+
+            <p style="text-align:right;color:green;font-weight:bold;">
+               install Ranger  last edit 17 Oct 2020
+            </p>
+            <img src="../../img/ranger_pop_os.png" alt="" class="responsive">
+            <p class="pt-2 mb-2">
+How to install ranger on Pop!_OS is simply just go to pop shop then type in "ranger" and click install That's all you have to do 
+            </p>
+
+        </div>
+
+
+
+
+        <div class="col-lg-6">
+            <h2 class="text-center">
+Config Ranger 
+            </h2>
+            <p style="text-align:right;color:green;font-weight:bold;">
+               last edit 5 Oct 2020
+            </p>
+            <img class="responsive" src="https://www.ubuntufree.com/wp-content/uploads/2020/05/pop-OS-laptop-info-1024x576.png" alt="">
+            
+            <p>
+How to set-up for the image preview and config file
+            </p>
+            
+            <div class="btn-group float-right">
+                <a href="001_image_preview.shtml" class="btn btn-primary">Read More</a>
+            </div>
+
+        </div>
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                phpmyadmin Pop!_OS 20.04
+            </h2>
+            <p style="text-align:right;color:green;font-weight:bold;">
+               last edit 5 Oct 2020
+            </p>
+            <img class="responsive" src="https://i.ibb.co/2Sd9K74/login-page-phpmyadmin.png" alt="phpmyadmin">
+            
+            <p class="mb-2 mt-2">this is the content for the title</p>
+            <div class="btn-group float-right">
+                <a href="27_how-to-install-phpmyadmin_popos.shtml" class="btn btn-primary">Read More</a>
+            </div>
+
+
+
+        </div>
+
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                how to 
+            </h2>
+
+            <p style="text-align:right;color:green;font-weight:bold;">
+               install VMWare Player last edit 9 Oct 2020
+            </p>
+            <img src="../img/vmware.png" alt="" class="responsive">
+<p>
+    This is how do I install VMWare Player on POP OS
+
+</p>
+            <div class="btn-group float-right">
+                <a class="btn btn-primary" href="POP_OS/003_howto_install_vmware.shtml">Read More</a>
+            </div>
+
+        </div>
+        <div class="col-lg-6">
+            <h2 class="text-center">
+                how to 
+            </h2>
+
+            <p style="text-align:right;color:green;font-weight:bold;">
+               install VMWare Workstation Pro 16 last edit 10 Oct 2020
+            </p>
+            <img src="../img/vmware_work_pro.png" alt="" class="responsive">
+            <p class="pt-2 mb-2">
+I use VMWare Workstation Pro on 10 Oct 2020 just the testing pupose on PoP OS 20.04
+            </p>
+
+            <div class="btn-group float-right">
+                <a class="btn btn-primary" href="POP_OS/003_howto_install_vmware.shtml">Read More</a>
+            </div>
+        </div>
+
+
+
+</div>

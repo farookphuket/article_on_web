@@ -1,0 +1,127 @@
+
+    <section id="article_body">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+
+                    <h1 class="text-center">My .vimrc file</h1>
+                    <p style="text-align:right;font-weight:bold;color:green;">Last update 11 Oct 2020</p>
+
+                    <div class="alert alert-warning">
+                        <h3 class="text-center">Please note</h3>
+                        <p>
+                            before you copy this .vimrc file make sure that you install all of the program that list below on your machine otherwise this might not working! 
+                        </p>
+                        <ol class="list-group">
+                            <li class="list-group-item">
+                                gvim (to install gvim you better find it from synaptic or ubuntu software) it a lot easier and you will get the correct one
+                            </li>
+                            <li class="list-group-item">powerline</li>
+                            <li class="list-group-item">git</li>
+                            <li class="list-group-item">tmux</li>
+                            <li class="list-group-item">zsh</li>
+                        </ol>
+                        <p class="pt-4 mb-4">
+                            to install the program on Debian Ubuntu
+                        </p>
+                        <textarea class="form-control mb-4 pt-4">
+sudo apt install curl git cmake tmux powerline zsh nodejs npm -y 
+                        </textarea>
+
+                        <p class="pt-4 mb-4">
+                            to install the program on Manjaro
+                        </p>
+                        <textarea class="form-control mb-4 pt-4">
+sudo pacman -S curl git cmake tmux powerline zsh nodejs npm --noconfirm 
+                        </textarea>
+
+                        <p class="pt-4 mb-4">
+now open your terminal then type "cd ~/" to go to your home(or wherever you should but just remember the path) now put this below code to your termenal then hit enter
+                        </p>
+                        <textarea class="form-control pt-4 mb-4">git clone https://github.com/farookphuket/far_vimrc.git</textarea>
+                        
+                       <p class="pt-4 mb-4">
+you'll will get the folder "far_vimrc" folder open it then unzip the file "farook_vim_conf_xxx"(as xxx is will be the last update file) so in the folder farook_vim_conf_xxx you'll see the .folder in here (by default Linux will hide any file or folder that has dot(.) infront of it so to unhide this you have control+h) now copy ".vim folder",".vimrc",".tmux.conf",".bashrc",".zshrc" to your home folder 
+                       </p>
+                      <img class="pt-4 mb-4 responsive" src="../img/copy_to_home.png" alt="">
+                      <p class="pt-4 mb-4">
+this vim config use "Plug" instead of "Vundle" so make sure you have it in place to do that copy the code below to your terminal then run it
+                      </p>
+                      
+                      <textarea class="form-control pt-4 mb-4">curl -fLo ~/.vim/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</textarea>
+                      
+                      
+                      
+                      <p class="pt-4 mb-4">
+now you're good to go to the next step open file ~/.vimrc press ":PlugInstall" hit enter  
+                      </p>
+                      
+                    </div>
+                    <ol class="list-group">
+                        <li class="list-group-item">
+
+
+                            <p class="mb-4">
+My ".vimrc file" that I use on "POP!_OS 20.04" now
+                            </p>
+                            <textarea class="form-control pt-4 mb-4 dotvim" rows="25"></textarea>
+                            <script type="text/javascript">
+                                $(function(){
+                                    $('.dotvim').load('article_content/_dot_vimrc.shtml');
+                                });
+                            </script>
+                        </li>
+                        <li class="list-group-item">
+
+                            <p class="pt-4 mb-4">
+                                my .bashrc file 
+                            </p>
+                            <textarea class="form-control pt-4 mb-4 dotbash" rows="29">sudo apt install composer</textarea>
+
+                            <script type="text/javascript">
+                                $(function(){
+                                    $('.dotbash').load('article_content/_dot_bashrc.shtml');
+                                });
+                            </script>
+                        </li>
+
+
+                        <li class="list-group-item">
+
+                            <p class="pt-4 mb-4">
+                                my .tmux.conf file 
+                            </p>
+                            <textarea class="form-control pt-4 mb-4 dottmux" rows="29">sudo apt install composer</textarea>
+
+                            <script type="text/javascript">
+                                $(function(){
+                                    $('.dottmux').load('article_content/_dot_tmuxconf.shtml');
+                                });
+                            </script>
+                        </li>
+
+
+
+                        <li class="list-group-item">
+
+                            <p class="pt-4 mb-4">
+                                my .zshrc file 
+                            </p>
+                            <textarea class="form-control pt-4 mb-4 dotzsh" rows="29">sudo apt install composer</textarea>
+
+                            <script type="text/javascript">
+                                $(function(){
+                                    $('.dotzsh').load('article_content/_dot_zshrc.shtml');
+                                });
+                            </script>
+                        </li>
+
+                    </ol>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
