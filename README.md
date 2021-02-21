@@ -12,6 +12,12 @@
 
 
 
+
+### 21 Feb 2021 
+
+>   change the icon to farICON.ico 
+
+
 ### 1 Feb 2021 
 
 >   reduce file size for a better pull time 
